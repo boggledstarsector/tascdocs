@@ -46,9 +46,10 @@ export default function PlanetaryAgravField() {
                 <div className="flex flex-col gap-1">
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>Can only be constructed on colonies with Domed Cities.</li>
+                        <li>Can only be constructed on colonies with <Link href="/docs/domed-cities" style={{ color: 'rgb(5, 250, 250)' }}>Domed Cities</Link>.</li>
                     </ul>
                 </div>
+                <div><Link href="https://starsector.wiki.gg/wiki/Colony#Luddic_Path_cells" style={{ color: 'rgb(5, 250, 250)' }}>Pather interest</Link>: <span style={{ color: 'rgb(255, 210, 0)' }}>2</span></div>
             </section>
         </div>
     );
