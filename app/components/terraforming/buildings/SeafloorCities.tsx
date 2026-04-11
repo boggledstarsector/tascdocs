@@ -1,19 +1,19 @@
 import Link from "next/link";
 
-export default function DomedCities() {
+export default function SeafloorCities() {
     return (
         <div className="w-full lg:max-w-[1200px] lg:mx-auto">
             <section className="flex flex-col py-8 px-[2.5%] gap-4 text-base leading-relaxed">
-                <h1 className="text-3xl font-bold">Domed Cities</h1>
+                <h1 className="text-3xl font-bold">Seafloor Cities</h1>
                 <div className="flex justify-start">
                     <img
-                        src="/images/buildings/terraforming/domed_cities.png"
-                        alt="Domed Cities"
+                        src="/images/buildings/terraforming/seafloor_cities.png"
+                        alt="Seafloor Cities"
                         className="h-auto border"
                         style={{ borderColor: 'rgb(5, 250, 250)' }}
                     />
                 </div>
-                <div className="md:max-w-[750px]"><span className="italic">Hermetically sealed domes dozens of kilometers across can enclose the bulk of a colony's population in a relatively Earth-like environment. Hazardous conditions imposed by atmospheric properties, extreme weather and dangerous fauna are mitigated inside the domes. Concentrating industrial and population centers under fragile domes makes the colony almost defenseless against raiding and bombardment.</span></div>
+                <div className="md:max-w-[750px]"><span className="italic">Enclosed megastructures resting on the abyssal plains, these undersea cities withstand crushing pressure and eternal darkness with reinforced hulls and advanced life-support systems. The isolation of these colonies makes them difficult to reach, providing security from external threats but hampering trade.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>300,000¢</span></div>
                 <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000¢</span> * (colony size - 2)</div>
@@ -23,7 +23,8 @@ export default function DomedCities() {
                     <div>Effects:</div>
                     <ul className="list-disc list-inside pl-4">
                         <li>Increases <Link href="https://starsector.wiki.gg/wiki/Colony#Size" style={{ color: 'rgb(5, 250, 250)' }}>population growth</Link> by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span> * (colony size - 1).</li>
-                        <li><Link href="https://starsector.wiki.gg/wiki/Colony#Ground_defenses" style={{ color: 'rgb(5, 250, 250)' }}>Ground defense</Link> malus of <span style={{ color: 'rgb(200, 10, 20)' }}>x0.05</span>. <span className="italic opacity-60"> (can be disabled via LunaLib settings)</span></li>
+                        <li><Link href="https://starsector.wiki.gg/wiki/Colony#Ground_defenses" style={{ color: 'rgb(5, 250, 250)' }}>Ground defense</Link> bonus of <span style={{ color: 'rgb(5, 115, 10)' }}>x6</span>.</li>
+                        <li><Link href="https://starsector.wiki.gg/wiki/Colony#Accessibility" style={{ color: 'rgb(5, 250, 250)' }}>Accessibility</Link> penalty of <span style={{ color: 'rgb(200, 10, 20)' }}>-10%</span>.</li>
                         <li>Suppresses <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>no atmosphere</Link>.</li>
                         <li>Suppresses <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>thin atmosphere</Link>.</li>
                         <li>Suppresses <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>dense atmosphere</Link>.</li>
@@ -59,14 +60,8 @@ export default function DomedCities() {
                 <div className="flex flex-col gap-1">
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>
-                            Has different versions depending on the <Link href="https://starsector.wiki.gg/wiki/Category:Planets" style={{ color: 'rgb(5, 250, 250)' }}>planet type</Link>:
-                            <ul className="list-inside pl-4 mt-0 mb-1" style={{ listStyleType: 'circle' }}>
-                                <li>Sky Cities on gas giants</li>
-                                <li>Seafloor Cities on water worlds</li>
-                            </ul>
-                        </li>
-                        <li>Cannot be constructed on colonies with <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>Meteor Impacts</Link> or <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>Extreme Tectonic Activity</Link>. If there is an operational Harmonic Damper on the colony, <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>Extreme Tectonic Activity</Link> does not prevent construction.</li>
+                        <li>Seafloor Cities is the variant of <Link href="/docs/domed-cities" style={{ color: 'rgb(5, 250, 250)' }}>Domed Cities</Link> that is automatically built on water worlds instead of the standard Domed Cities building. It shares the same enable/disable LunaLib setting as Domed Cities.</li>
+                        <li>Unlike Domed Cities, Seafloor Cities can be constructed on colonies with <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>Meteor Impacts</Link>. It still cannot be constructed on colonies with <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>Extreme Tectonic Activity</Link> unless there is an operational Harmonic Damper on the colony.</li>
                         <li>The list of conditions suppressed by this building can be configured by the player by modifying the CSV file <Link href="https://github.com/boggledstarsector/TASC/blob/main/data/campaign/terraforming/domed_cities_suppressed_conditions.csv" style={{ color: 'rgb(5, 250, 250)' }}>here</Link> in the TASC mod folder.</li>
                     </ul>
                 </div>

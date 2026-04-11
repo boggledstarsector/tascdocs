@@ -58,6 +58,8 @@ Most data comes from two files in the TASC mod folder:
   `id, name, cost mult, build time, income, upkeep, downgrade, upgrade, tags, data, image, plugin, desc, order, disruptDanger`
 - **`src/boggled/campaign/econ/industries/Boggled_<Name>.java`** — defines runtime behavior (supply/demand, AI core overrides, pather interest, improvement bonus, etc.).
 
+Note that a single Java file can back multiple docs pages. Some buildings switch their name, description, costs, and effects based on the planet type they're built on (e.g. `Boggled_Domed_Cities.java` powers Domed Cities, Seafloor Cities, and Sky Cities — it branches on `this.getCurrentName()` inside `apply()`, `getBuildCost()`, `getBaseUpkeep()`, `getDescriptionOverride()`, and `getCurrentImage()`). When documenting a variant, read the Java file carefully for these per-variant branches rather than assuming the variant matches the base building.
+
 Mapping table:
 
 | Page field            | Source                                                                                                                                       |
