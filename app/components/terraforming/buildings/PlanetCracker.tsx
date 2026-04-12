@@ -16,6 +16,7 @@ export default function PlanetCracker() {
                 <div className="md:max-w-[750px]"><span className="italic">Hypervelocity kinetic bombardment platforms, originally designed as weapons of mass destruction during the Domain&apos;s most violent insurgencies. Each &apos;cracker&apos; accelerates a tungsten rod to relativistic speeds on an impact trajectory calculated to maximize tectonic disruption. The result: localized earthquakes, volcanic activation, and upwelling of mineral-rich mantle material that can be mined once the dust settles. The technique is crude, environmentally catastrophic, and brutally effective—exactly the sort of solution that appeals to desperate colonies or unscrupulous mining conglomerates.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use LunaLib settings to enable)</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>75,000¢</span></div>
+                <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>30</span> days</div>
                 <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>500¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div>Demand: <span className="italic opacity-60">(none)</span></div>

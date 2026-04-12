@@ -1,30 +1,41 @@
 import Link from "next/link";
 
-export default function PlanetaryAgravField() {
+export default function AtmosphereProcessor() {
     return (
         <div className="w-full lg:max-w-[1200px] lg:mx-auto">
             <section className="flex flex-col py-8 px-[2.5%] gap-4 text-base leading-relaxed">
-                <h1 className="text-3xl font-bold">Planetary Agrav Field</h1>
+                <h1 className="text-3xl font-bold">Atmosphere Processor</h1>
                 <div className="flex justify-start">
                     <img
-                        src="/images/buildings/terraforming/planetary_agrav_field.png"
-                        alt="Planetary Agrav Field"
+                        src="/images/buildings/terraforming/atmosphere_processor.png"
+                        alt="Atmosphere Processor"
                         className="h-auto border"
                         style={{ borderColor: 'rgb(5, 250, 250)' }}
                     />
                 </div>
-                <div className="md:max-w-[750px]"><span className="italic">The agrav field generators used on starships work on the surface of planets - the problem is building a large enough network of generators to envelop the entire colony. This is only economically feasible when the bulk of the populace is housed within the confines of a few domed cities.</span></div>
-                <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use LunaLib settings to enable)</span></div>
+                <div className="md:max-w-[750px]"><span className="italic">A network of towering constructs that permanently change the composition of the atmosphere over time. Necessary for terraforming planets with suboptimal atmospheric pressure and/or toxicity.</span></div>
+                <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>300,000¢</span></div>
-                <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>60</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>2,000¢</span> * (colony size - 2)</div>
+                <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>90</span> days</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>6,000¢</span></div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
-                <div>Demand: <span className="italic opacity-60">(none)</span></div>
+                <div className="flex flex-col gap-1">
+                    <div>Demand:</div>
+                    <div className="flex flex-col gap-2 pl-4">
+                        <div className="flex items-center gap-2">
+                            <Link href="https://starsector.wiki.gg/wiki/Heavy_Machinery">
+                                <img src="/images/commodities/heavymachinery.png" alt="Heavy machinery" className="h-10 w-10" />
+                            </Link>
+                            <span>colony size</span>
+                        </div>
+                    </div>
+                </div>
                 <div className="flex flex-col gap-1">
                     <div>Effects:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>Suppresses <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>high gravity</Link>.</li>
-                        <li>Suppresses <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>low gravity</Link>.</li>
+                        <li>Required to run terraforming projects that alter a planet&apos;s atmospheric density or remove toxic atmospheres.</li>
+                        <li>The atmosphere processor is inactive while heavy machinery demand is unmet.</li>
+                        <li>Terraforming progress stalls while the atmosphere processor is disrupted.</li>
                     </ul>
                 </div>
                 <div className="flex flex-col gap-1">
@@ -48,7 +59,8 @@ export default function PlanetaryAgravField() {
                 <div className="flex flex-col gap-1">
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>Can only be constructed on colonies with <Link href="/docs/domed-cities" style={{ color: 'rgb(5, 250, 250)' }}>Domed Cities</Link>.</li>
+                        <li>Can only be built on worlds with suboptimal atmospheric conditions (wrong atmospheric density or a toxic atmosphere).</li>
+                        <li>Cannot be built on stars, gas giants, volcanic worlds, or irradiated worlds (unless the remove radiation project is enabled in LunaLib settings).</li>
                     </ul>
                 </div>
                 <div><Link href="https://starsector.wiki.gg/wiki/Colony#Luddic_Path_cells" style={{ color: 'rgb(5, 250, 250)' }}>Pather interest</Link>: <span style={{ color: 'rgb(255, 210, 0)' }}>2</span></div>

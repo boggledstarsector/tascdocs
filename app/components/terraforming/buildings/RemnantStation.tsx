@@ -16,6 +16,7 @@ export default function RemnantStation() {
                 <div className="md:max-w-[750px]"><span className="italic">This is a fully armed and operational autonomous AI battlestation. Stations such as this acted as fuel and supply depot, robotic factory, command nexus, and weapon platform in support of AI fleets operating on a strategic level.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000,000¢</span></div>
+                <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>180</span> days</div>
                 <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>2,500¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">

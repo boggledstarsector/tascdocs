@@ -16,6 +16,7 @@ export default function HarmonicDamper() {
                 <div className="md:max-w-[750px]"><span className="italic">Essentially a gigantic phase coil mounted on a planet instead of a warship. Selective phasing of small portions of the planetary surface suppresses vibrations from tectonic activity. The military applications of this device are readily apparent, but the superhuman reflexes of an AI core will be required to use it to the fullest extent.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span> <span className="italic opacity-60">(use LunaLib settings to enable)</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>300,000¢</span></div>
+                <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>60</span> days</div>
                 <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>2,000¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div>Demand: <span className="italic opacity-60">(none)</span></div>

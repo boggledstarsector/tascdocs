@@ -41,14 +41,15 @@ Use this exact order so all building pages look the same:
 3. **Italic flavor text** — wrapped in `md:max-w-[750px]`
 4. **Enabled by default** — `Yes` (green) or `No` (red); add `(use LunaLib settings to enable)` muted-italic note when relevant
 5. **Build cost** — single yellow credit value
-6. **Monthly upkeep** — yellow credit value followed by ` * (colony size - 2)`
-7. **Supply** — commodity icons (see §5)
-8. **Demand** — commodity icons (see §5)
-9. **Effects** — bullet list
-10. **AI core effects** — three rows with alpha/beta/gamma icons
-11. **Improvement bonus** — single line (see §6)
-12. **Notes** — optional; omit entirely if there's nothing unique to call out
-13. **Pather interest** — single line with yellow number
+6. **Build time** — single yellow number followed by ` days`
+7. **Monthly upkeep** — yellow credit value followed by ` * (colony size - 2)`
+8. **Supply** — commodity icons (see §5)
+9. **Demand** — commodity icons (see §5)
+10. **Effects** — bullet list
+11. **AI core effects** — three rows with alpha/beta/gamma icons
+12. **Improvement bonus** — single line (see §6)
+13. **Notes** — optional; omit entirely if there's nothing unique to call out
+14. **Pather interest** — single line with yellow number
 
 ## 4. Where each value comes from
 
@@ -66,6 +67,7 @@ Mapping table:
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | Flavor text (italic)  | `desc` column of `industries.csv` — copy verbatim                                                                                            |
 | Build cost (¢)        | `cost mult` column × **5,000** (e.g. cost mult `50` → `250,000¢`)                                                                            |
+| Build time (days)     | `build time` column, copied verbatim (e.g. `90` → `90 days`)                                                                                 |
 | Monthly upkeep base   | `upkeep` column × **500** (e.g. upkeep `3` → `1,500¢`); always followed by ` * (colony size - 2)`                                            |
 | Enabled by default    | `data/config/LunaSettings.csv` — find the matching `boggled<Name>Enabled` row and use its default Boolean (`True` → Yes green, `False` → No red + LunaLib note) |
 | Supply / Demand items | Java file's `apply()` method — look for `this.supply(...)` and `this.demand(...)` calls                                                      |

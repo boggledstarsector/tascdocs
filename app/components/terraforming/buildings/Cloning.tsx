@@ -1,31 +1,31 @@
 import Link from "next/link";
 
-export default function Hydroponics() {
+export default function Cloning() {
     return (
         <div className="w-full lg:max-w-[1200px] lg:mx-auto">
             <section className="flex flex-col py-8 px-[2.5%] gap-4 text-base leading-relaxed">
-                <h1 className="text-3xl font-bold">Hydroponics</h1>
+                <h1 className="text-3xl font-bold">Cloning</h1>
                 <div className="flex justify-start">
                     <img
-                        src="/images/buildings/terraforming/hydroponics.png"
-                        alt="Hydroponics"
+                        src="/images/buildings/terraforming/cloning.png"
+                        alt="Cloning"
                         className="h-auto border"
                         style={{ borderColor: 'rgb(5, 250, 250)' }}
                     />
                 </div>
-                <div className="md:max-w-[750px]"><span className="italic">Without soil or natural light, life finds a way. These hydroponic bays represent centuries of agricultural refinement dating back to the first generation ships and O'Neill cylinders of Old Earth's diaspora. Nutrient-rich water circulates through racks of genetically modified crops optimized for minimal space and maximum caloric output, their grow-lights cycling in rhythms that mimic forgotten seasons.</span></div>
+                <div className="md:max-w-[750px]"><span className="italic">Clones are grown in vats, their developing minds connected to a virtual reality simulation via brain-machine interface. Those that are productive and compliant in the simulation are released into general society. The rest are used for organ harvesting.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use LunaLib settings to enable)</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>250,000¢</span></div>
-                <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>60</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,500¢</span> * (colony size - 2)</div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>600,000¢</span></div>
+                <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>120</span> days</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>6,000¢</span> * (colony size - 2)</div>
                 <div className="flex flex-col gap-1">
                     <div>Supply:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/Food">
-                                <img src="/images/commodities/food.png" alt="Food" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/Commodity">
+                                <img src="/images/commodities/organs.png" alt="Harvested organs" className="h-10 w-10" />
                             </Link>
-                            <span>colony size</span>
+                            <span>colony size - 2</span>
                         </div>
                     </div>
                 </div>
@@ -33,10 +33,10 @@ export default function Hydroponics() {
                     <div>Demand:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/Heavy_Machinery">
-                                <img src="/images/commodities/heavymachinery.png" alt="Heavy machinery" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/Commodity">
+                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10" />
                             </Link>
-                            <span>colony size</span>
+                            <span>colony size <span className="italic opacity-60">(only demanded when Domain-tech content and Domain Archaeology are enabled)</span></span>
                         </div>
                         <div className="flex items-center gap-2">
                             <Link href="https://starsector.wiki.gg/wiki/Organics">
@@ -49,7 +49,8 @@ export default function Hydroponics() {
                 <div className="flex flex-col gap-1">
                     <div>Effects:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>Food production is reduced if heavy machinery (or, on non-habitable worlds, organics) demand is unmet.</li>
+                        <li>Increases colony population growth by <span style={{ color: 'rgb(255, 210, 0)' }}>colony size - 1</span> while functional.</li>
+                        <li>Harvested organs production is reduced if Domain-era artifacts (when enabled) or organics (on non-habitable worlds) demand is unmet.</li>
                     </ul>
                 </div>
                 <div className="flex flex-col gap-1">
@@ -57,7 +58,7 @@ export default function Hydroponics() {
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
                             <img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" />
-                            <span>Increases <Link href="https://starsector.wiki.gg/wiki/Food" style={{ color: 'rgb(5, 250, 250)' }}>food</Link> production by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>, reduces demand by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span> and reduces upkeep by <span style={{ color: 'rgb(255, 210, 0)' }}>25%</span>.</span>
+                            <span>Increases <Link href="https://starsector.wiki.gg/wiki/Commodity" style={{ color: 'rgb(5, 250, 250)' }}>harvested organs</Link> production by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>, reduces demand by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span> and reduces upkeep by <span style={{ color: 'rgb(255, 210, 0)' }}>25%</span>.</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" />
@@ -69,8 +70,8 @@ export default function Hydroponics() {
                         </div>
                     </div>
                 </div>
-                <div><Link href="https://starsector.wiki.gg/wiki/Industry#Upgrading" style={{ color: 'rgb(5, 250, 250)' }}>Improvement bonus</Link>: Increases <Link href="https://starsector.wiki.gg/wiki/Food" style={{ color: 'rgb(5, 250, 250)' }}>food</Link> production by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>.</div>
-                <div><Link href="https://starsector.wiki.gg/wiki/Colony#Luddic_Path_cells" style={{ color: 'rgb(5, 250, 250)' }}>Pather interest</Link>: <span style={{ color: 'rgb(255, 210, 0)' }}>0</span></div>
+                <div><Link href="https://starsector.wiki.gg/wiki/Industry#Upgrading" style={{ color: 'rgb(5, 250, 250)' }}>Improvement bonus</Link>: Increases <Link href="https://starsector.wiki.gg/wiki/Commodity" style={{ color: 'rgb(5, 250, 250)' }}>harvested organs</Link> production by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>.</div>
+                <div><Link href="https://starsector.wiki.gg/wiki/Colony#Luddic_Path_cells" style={{ color: 'rgb(5, 250, 250)' }}>Pather interest</Link>: <span style={{ color: 'rgb(255, 210, 0)' }}>10</span></div>
             </section>
         </div>
     );

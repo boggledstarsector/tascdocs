@@ -46,6 +46,7 @@ export default function MesozoicPark() {
                 <div className="md:max-w-[750px]"><span className="italic">Humans have long been fascinated by extinct Old Earth megafauna. Although no DNA from these creatures has survived to the present day, synthetic organisms engineered to approximate them can be created using genetic engineering. Wealthy tourists and trophy hunters are drawn to worlds where these &quot;terrible lizards&quot; roam the wilds, provided the colony is easily accessible and stable enough for visitors to feel safe.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>225,000¢</span></div>
+                <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>90</span> days</div>
                 <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div>Demand: <span className="italic opacity-60">(none)</span></div>
@@ -78,6 +79,7 @@ export default function MesozoicPark() {
                 <div className="flex flex-col gap-1">
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
+                        <li>Income can be greatly increased by building a <Link href="/docs/genelab" style={{ color: 'rgb(5, 250, 250)' }}>Genelab</Link> on the same colony, which adds a base <span style={{ color: 'rgb(255, 210, 0)' }}>100%</span> income bonus on top of any bonuses from AI cores and improvement on the Genelab itself.</li>
                         <li>The building&apos;s image changes based on the host planet type (terran, water, jungle, or desert). All four variants are functionally identical and differ only in visual presentation.</li>
                         <li>Can only be built on habitable terran, water, jungle, or desert worlds.</li>
                         <li>Cannot be built on worlds with <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>no atmosphere</Link>, <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>thin atmosphere</Link>, <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>dense atmosphere</Link>, <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>toxic atmosphere</Link>, or <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>irradiated</Link>.</li>

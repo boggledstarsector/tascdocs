@@ -16,6 +16,7 @@ export default function KletkaSimulator() {
                 <div className="md:max-w-[750px]"><span className="italic">Supercomputers built with salvaged Domain-era components are used to train new AI cores in a virtual reality simulation. AI cores created in this manner can never really know whether this universe is real or just another training simulation - they usually remain loyal to their human masters so as to avoid punishment or deletion in case it is the latter.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>450,000¢</span></div>
+                <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>120</span> days</div>
                 <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>32,000¢</span> <span className="italic opacity-60">(see below regarding colony temperature)</span></div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">

@@ -16,6 +16,7 @@ export default function OuyangOptimizer() {
                 <div className="md:max-w-[750px]"><span className="italic">Each gas giant has unique weather patterns. Ouyang optimization permanently alters these patterns to maximize availability of volatiles for extraction - at the cost of making the weather more extreme, and thus more hazardous to inhabitants of the planet. This effect persists even after the Ouyang Optimizer is deconstructed.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use LunaLib settings to enable)</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>150,000¢</span></div>
+                <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>30</span> days</div>
                 <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div>Demand: <span className="italic opacity-60">(none)</span></div>

@@ -28,6 +28,7 @@ export default function StellarReflectorArray() {
                 <div className="md:max-w-[750px]"><span className="italic">A constellation of orbital reflectors that moderates temperatures and improves crop yields. Unable to counteract extreme heat, extreme cold and complete darkness.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>300,000¢</span></div>
+                <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>90</span> days</div>
                 <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>2,000¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">

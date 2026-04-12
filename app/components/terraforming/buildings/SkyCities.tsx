@@ -16,6 +16,7 @@ export default function SkyCities() {
                 <div className="md:max-w-[750px]"><span className="italic">Colossal arcologies suspended within the upper atmosphere of a gas giant, held aloft by specialized atmospheric buoyancy systems. These floating cities can provide a habitable environment for millions, shielding them from the crushing pressures and violent storms below.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>900,000¢</span></div>
+                <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>60</span> days</div>
                 <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>6,000¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div>Demand: <span className="italic opacity-60">(none)</span></div>
