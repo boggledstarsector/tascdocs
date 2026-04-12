@@ -1,6 +1,6 @@
 import Banner from "../../components/Banner";
 import NavigationHeader from "../../components/NavigationHeader";
-import Hydroponics from "../../components/terraforming/buildings/Hydroponics";
+import Hydroponics from "../../components/misc/buildings/Hydroponics";
 import ButtonFooter from "../../components/ButtonFooter";
 
 export default function HydroponicsPage() {

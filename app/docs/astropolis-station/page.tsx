@@ -1,14 +1,14 @@
 import Banner from "../../components/Banner";
 import NavigationHeader from "../../components/NavigationHeader";
-import GalatianParticleAccelerator from "../../components/domain-tech/buildings/GalatianParticleAccelerator";
+import AstropolisStation from "../../components/station_construction/abilities/AstropolisStation";
 import ButtonFooter from "../../components/ButtonFooter";
 
-export default function GalatianParticleAcceleratorPage() {
+export default function AstropolisStationPage() {
   return (
     <main>
       <Banner />
       <NavigationHeader />
-      <GalatianParticleAccelerator />
+      <AstropolisStation />
       <ButtonFooter />
     </main>
   );

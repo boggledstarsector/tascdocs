@@ -1,6 +1,6 @@
 import Banner from "../../components/Banner";
 import NavigationHeader from "../../components/NavigationHeader";
-import Chameleon from "../../components/terraforming/buildings/Chameleon";
+import Chameleon from "../../components/domain-tech/buildings/Chameleon";
 import ButtonFooter from "../../components/ButtonFooter";
 
 export default function ChameleonPage() {

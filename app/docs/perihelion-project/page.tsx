@@ -1,6 +1,6 @@
 import Banner from "../../components/Banner";
 import NavigationHeader from "../../components/NavigationHeader";
-import PerihelionProject from "../../components/terraforming/buildings/PerihelionProject";
+import PerihelionProject from "../../components/domain-tech/buildings/PerihelionProject";
 import ButtonFooter from "../../components/ButtonFooter";
 
 export default function PerihelionProjectPage() {
