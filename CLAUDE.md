@@ -16,7 +16,6 @@ The TASC mod itself lives outside this repo at `C:\Program Files (x86)\Fractal S
 - `app/` — Next.js App Router routes and shared components
   - `app/docs/<slug>/page.tsx` — per-building / per-topic route wrappers
   - `app/components/` — shared UI (`Banner`, `NavigationHeader`, `ButtonFooter`, etc.)
-  - `app/components/terraforming/buildings/` — one content component per building
 - `public/images/` — building icons, commodity icons, AI core icons, and other static assets
 - `docs/` — repo-internal authoring guides (not shipped in the site)
 
