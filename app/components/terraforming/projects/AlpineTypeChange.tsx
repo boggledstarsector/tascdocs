@@ -1,24 +1,25 @@
 import Link from "next/link";
 
-export default function JungleTypeChange() {
+export default function AlpineTypeChange() {
     return (
         <div className="w-full lg:max-w-[1200px] lg:mx-auto">
             <section className="flex flex-col py-8 px-[2.5%] gap-4 text-base leading-relaxed">
-                <h1 className="text-3xl font-bold">Jungle Type Change</h1>
+                <h1 className="text-3xl font-bold">Alpine Type Change</h1>
                 <div className="flex justify-start">
-                    <img src="/images/planets/jungle.jpg" alt="Jungle planet texture" className="w-80 h-auto border" style={{ borderColor: 'rgb(5, 250, 250)' }} />
+                    <img src="/images/planets/alpine.jpg" alt="Alpine planet texture" className="w-80 h-auto border" style={{ borderColor: 'rgb(5, 250, 250)' }} />
                 </div>
-                <div className="md:max-w-[750px]"><span className="italic">A lush and verdant biosphere sits on the surface of this water-rich world. Warm air and water currents permeate the planet&apos;s biosphere, leading to perfect conditions for flora and fauna at all latitudes.</span></div>
+                <div className="md:max-w-[750px]"><span className="italic">A mountainous world covered in valleys, lakes and towering peaks. The high altitude combined with the modest distance from the planet&apos;s primary makes snowfall a frequent occurrence.</span></div>
+                <div>Requires the <Link href="https://fractalsoftworks.com/forum/index.php?topic=25500.0" style={{ color: 'rgb(5, 250, 250)' }}>Unknown Skies</Link> mod.</div>
                 <div>Duration: <span style={{ color: 'rgb(255, 210, 0)' }}>400</span> days <span className="italic opacity-60">(configurable via LunaLib settings)</span></div>
 
                 <div className="flex flex-col gap-1">
                     <div>Requirements:</div>
                     <ul className="list-disc list-inside pl-4">
                         <li>World type allows <Link href="/docs/terraforming" style={{ color: 'rgb(5, 250, 250)' }}>terraforming</Link></li>
-                        <li>Planet is not already a jungle world</li>
+                        <li>Planet is not already an alpine world</li>
                         <li>Atmospheric density is normal</li>
                         <li>Atmosphere is not <Link href="https://starsector.wiki.gg/wiki/Toxic_Atmosphere" style={{ color: 'rgb(5, 250, 250)' }}>toxic</Link> or <Link href="https://starsector.wiki.gg/wiki/Irradiated" style={{ color: 'rgb(5, 250, 250)' }}>irradiated</Link></li>
-                        <li>Temperature is temperate or <Link href="https://starsector.wiki.gg/wiki/Hot" style={{ color: 'rgb(5, 250, 250)' }}>hot</Link> <span className="italic opacity-60">(cannot be cold, very cold, or very hot)</span></li>
+                        <li>Temperature is not <Link href="https://starsector.wiki.gg/wiki/Very_Hot" style={{ color: 'rgb(5, 250, 250)' }}>very hot</Link> or <Link href="https://starsector.wiki.gg/wiki/Very_Cold" style={{ color: 'rgb(5, 250, 250)' }}>very cold</Link></li>
                         <li><Link href="/docs/stellar-reflector-array" style={{ color: 'rgb(5, 250, 250)' }}>Stellar Reflector Array</Link> is operational on the colony</li>
                         <li>Water level is <span style={{ color: 'rgb(255, 210, 0)' }}>high</span></li>
                     </ul>
@@ -27,10 +28,11 @@ export default function JungleTypeChange() {
                 <div className="flex flex-col gap-1">
                     <div>Results:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>Planet type changes to <span style={{ color: 'rgb(5, 250, 250)' }}>jungle</span></li>
+                        <li>Planet type changes to <span style={{ color: 'rgb(5, 250, 250)' }}>alpine</span></li>
                         <li>Adds <Link href="https://starsector.wiki.gg/wiki/Habitable" style={{ color: 'rgb(5, 250, 250)' }}>habitable</Link> condition</li>
                         <li>Adds <Link href="https://starsector.wiki.gg/wiki/Farmland" style={{ color: 'rgb(5, 250, 250)' }}>farmland</Link> (adequate)</li>
                         <li>Adds <Link href="https://starsector.wiki.gg/wiki/Organics" style={{ color: 'rgb(5, 250, 250)' }}>organics</Link> (common)</li>
+                        <li>Adds <Link href="https://starsector.wiki.gg/wiki/Volatiles" style={{ color: 'rgb(5, 250, 250)' }}>volatiles</Link> (trace) <span className="italic opacity-60">(can be disabled via LunaLib settings)</span></li>
                         <li>Removes all pre-existing atmosphere, weather, biosphere, farmland, organics, and volatiles conditions</li>
                     </ul>
                 </div>
@@ -38,11 +40,9 @@ export default function JungleTypeChange() {
                 <div className="flex flex-col gap-1">
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>Jungle worlds have excellent organics potential — they can be improved up to <span style={{ color: 'rgb(255, 210, 0)' }}>plentiful</span> via the <Link href="/docs/terraforming/organics-improvement" style={{ color: 'rgb(5, 250, 250)' }}>organics improvement</Link> project.</li>
-                        <li>Jungle worlds <span style={{ color: 'rgb(200, 10, 20)' }}>cannot</span> produce volatiles. If you need volatiles, consider a <Link href="/docs/terraforming/terran-type-change" style={{ color: 'rgb(5, 250, 250)' }}>terran</Link> or <Link href="/docs/terraforming/tundra-type-change" style={{ color: 'rgb(5, 250, 250)' }}>tundra</Link> type change instead.</li>
-                        <li>Farmland can be improved up to <span style={{ color: 'rgb(255, 210, 0)' }}>bountiful</span> via the <Link href="/docs/terraforming/farmland-improvement" style={{ color: 'rgb(5, 250, 250)' }}>farmland improvement</Link> project.</li>
-                        <li>The temperature requirement (temperate or hot) means cold or very cold worlds cannot be converted to jungle. The <Link href="/docs/stellar-reflector-array" style={{ color: 'rgb(5, 250, 250)' }}>Stellar Reflector Array</Link> can suppress the cold condition but not very cold.</li>
-                        <li>If <Link href="/docs/mesozoic-park" style={{ color: 'rgb(5, 250, 250)' }}>Mesozoic Park</Link> is built, the <Link href="https://starsector.wiki.gg/wiki/Inimical_Biosphere" style={{ color: 'rgb(5, 250, 250)' }}>inimical biosphere</Link> condition will be re-added.</li>
+                        <li>Alpine worlds share the same base resources and terraforming requirements as <Link href="/docs/terraforming/terran-type-change" style={{ color: 'rgb(5, 250, 250)' }}>terran</Link> worlds — the planet type is purely cosmetic for terraforming purposes.</li>
+                        <li>Planets with low base water will need an <Link href="/docs/ismaras-sling" style={{ color: 'rgb(5, 250, 250)' }}>Ismara&apos;s Sling</Link> or <Link href="/docs/asteroid-processing" style={{ color: 'rgb(5, 250, 250)' }}>Asteroid Processing</Link> facility in the same system to reach high water level.</li>
+                        <li>After the type change, resources start at their base level. Use <Link href="/docs/terraforming/farmland-improvement" style={{ color: 'rgb(5, 250, 250)' }}>farmland</Link>, <Link href="/docs/terraforming/organics-improvement" style={{ color: 'rgb(5, 250, 250)' }}>organics</Link>, and <Link href="/docs/terraforming/volatiles-improvement" style={{ color: 'rgb(5, 250, 250)' }}>volatiles</Link> improvement projects to increase them further.</li>
                         <li>Ore deposits are <span style={{ color: 'rgb(200, 10, 20)' }}>never modified</span> by terraforming projects.</li>
                     </ul>
                 </div>

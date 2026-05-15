@@ -1,14 +1,14 @@
 import Banner from "../../../components/Banner";
 import NavigationHeader from "../../../components/NavigationHeader";
-import HabitabilityAndClimate from "../../../components/terraforming/projects/HabitabilityAndClimate";
+import MakeClimateMild from "../../../components/terraforming/projects/MakeClimateMild";
 import ButtonFooter from "../../../components/ButtonFooter";
 
-export default function HabitabilityAndClimatePage() {
+export default function MakeClimateMildPage() {
   return (
     <main>
       <Banner />
       <NavigationHeader />
-      <HabitabilityAndClimate />
+      <MakeClimateMild />
       <ButtonFooter />
     </main>
   );

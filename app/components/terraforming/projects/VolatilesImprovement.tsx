@@ -5,15 +5,31 @@ export default function VolatilesImprovement() {
         <div className="w-full lg:max-w-[1200px] lg:mx-auto">
             <section className="flex flex-col py-8 px-[2.5%] gap-4 text-base leading-relaxed">
                 <h1 className="text-3xl font-bold">Volatiles Improvement</h1>
-                <div className="md:max-w-[750px]"><span className="italic">Improves a planet&apos;s volatiles deposits by one tier, increasing the quantity of volatiles the colony can extract. Volatiles are a critical resource used in fuel production and demanded by many industries.</span></div>
-                <div>Project type: <span style={{ color: 'rgb(5, 250, 250)' }}>Resource improvement</span></div>
-                <div>Duration: <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days <span className="italic opacity-60">(default; configurable via LunaLib settings)</span></div>
+                <div className="flex flex-row flex-wrap items-center gap-6">
+                    <div className="flex flex-col items-center gap-1">
+                        <img src="/images/resources/volatiles_trace.png" alt="Trace volatiles" className="h-10 w-10" />
+                        <div className="text-sm">Trace</div>
+                    </div>
+                    <div className="flex flex-col items-center gap-1">
+                        <img src="/images/resources/volatiles_diffuse.png" alt="Diffuse volatiles" className="h-10 w-10" />
+                        <div className="text-sm">Diffuse</div>
+                    </div>
+                    <div className="flex flex-col items-center gap-1">
+                        <img src="/images/resources/volatiles_abundant.png" alt="Abundant volatiles" className="h-10 w-10" />
+                        <div className="text-sm">Abundant</div>
+                    </div>
+                    <div className="flex flex-col items-center gap-1">
+                        <img src="/images/resources/volatiles_plentiful.png" alt="Plentiful volatiles" className="h-10 w-10" />
+                        <div className="text-sm">Plentiful</div>
+                    </div>
+                </div>
+                <div>Duration: <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days <span className="italic opacity-60">(configurable via LunaLib settings)</span></div>
 
                 <div className="flex flex-col gap-1">
                     <div>Requirements:</div>
                     <ul className="list-disc list-inside pl-4">
                         <li>World type supports <Link href="https://starsector.wiki.gg/wiki/Volatiles" style={{ color: 'rgb(5, 250, 250)' }}>volatiles</Link> improvement</li>
-                        <li>Volatiles can be improved further <span className="italic opacity-60">(current level is below the maximum for this planet type)</span></li>
+                        <li>Volatiles can be improved further</li>
                     </ul>
                 </div>
 
@@ -65,19 +81,6 @@ export default function VolatilesImprovement() {
                             </tbody>
                         </table>
                     </div>
-                </div>
-
-                <div className="flex flex-col gap-1">
-                    <div>Notes:</div>
-                    <ul className="list-disc list-inside pl-4">
-                        <li>Like <Link href="/docs/terraforming/organics-improvement" style={{ color: 'rgb(5, 250, 250)' }}>organics improvement</Link>, volatiles improvement has minimal requirements — no atmosphere, water, or building prerequisites.</li>
-                        <li>Frozen and tundra worlds are the best for volatiles — they start at diffuse and can reach plentiful with two improvement projects.</li>
-                        <li>Terran worlds can also reach plentiful volatiles but start at trace, requiring three improvement projects.</li>
-                        <li>Water worlds cap out at <span style={{ color: 'rgb(255, 210, 0)' }}>abundant</span> (one tier below maximum).</li>
-                        <li>Desert worlds can only reach <span style={{ color: 'rgb(255, 210, 0)' }}>trace</span> volatiles — one improvement project from nothing.</li>
-                        <li>Barren, jungle, toxic, and volcanic worlds have no volatiles potential and cannot use this project.</li>
-                        <li>Note that volatiles added via a planet type change to terran or tundra worlds can be disabled in LunaLib settings. If disabled, you can still use this project to add volatiles after the type change.</li>
-                    </ul>
                 </div>
             </section>
         </div>

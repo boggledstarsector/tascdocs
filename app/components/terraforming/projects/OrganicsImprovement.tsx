@@ -5,15 +5,31 @@ export default function OrganicsImprovement() {
         <div className="w-full lg:max-w-[1200px] lg:mx-auto">
             <section className="flex flex-col py-8 px-[2.5%] gap-4 text-base leading-relaxed">
                 <h1 className="text-3xl font-bold">Organics Improvement</h1>
-                <div className="md:max-w-[750px]"><span className="italic">Improves a planet&apos;s organics deposits by one tier, increasing the quantity of organics the colony can extract. Organics are used in fuel production and as an input for various industries.</span></div>
-                <div>Project type: <span style={{ color: 'rgb(5, 250, 250)' }}>Resource improvement</span></div>
-                <div>Duration: <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days <span className="italic opacity-60">(default; configurable via LunaLib settings)</span></div>
+                <div className="flex flex-row flex-wrap items-center gap-6">
+                    <div className="flex flex-col items-center gap-1">
+                        <img src="/images/resources/organics_trace.png" alt="Trace organics" className="h-10 w-10" />
+                        <div className="text-sm">Trace</div>
+                    </div>
+                    <div className="flex flex-col items-center gap-1">
+                        <img src="/images/resources/organics_common.png" alt="Common organics" className="h-10 w-10" />
+                        <div className="text-sm">Common</div>
+                    </div>
+                    <div className="flex flex-col items-center gap-1">
+                        <img src="/images/resources/organics_abundant.png" alt="Abundant organics" className="h-10 w-10" />
+                        <div className="text-sm">Abundant</div>
+                    </div>
+                    <div className="flex flex-col items-center gap-1">
+                        <img src="/images/resources/organics_plentiful.png" alt="Plentiful organics" className="h-10 w-10" />
+                        <div className="text-sm">Plentiful</div>
+                    </div>
+                </div>
+                <div>Duration: <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days <span className="italic opacity-60">(configurable via LunaLib settings)</span></div>
 
                 <div className="flex flex-col gap-1">
                     <div>Requirements:</div>
                     <ul className="list-disc list-inside pl-4">
                         <li>World type supports <Link href="https://starsector.wiki.gg/wiki/Organics" style={{ color: 'rgb(5, 250, 250)' }}>organics</Link> improvement</li>
-                        <li>Organics can be improved further <span className="italic opacity-60">(current level is below the maximum for this planet type)</span></li>
+                        <li>Organics can be improved further</li>
                     </ul>
                 </div>
 
@@ -65,16 +81,6 @@ export default function OrganicsImprovement() {
                             </tbody>
                         </table>
                     </div>
-                </div>
-
-                <div className="flex flex-col gap-1">
-                    <div>Notes:</div>
-                    <ul className="list-disc list-inside pl-4">
-                        <li>Organics improvement has minimal requirements — no atmosphere, water, or building prerequisites. Only the planet type and current level matter.</li>
-                        <li>Barren, frozen, toxic, and volcanic worlds have no organics potential and cannot use this project.</li>
-                        <li>Desert worlds can only improve organics by one tier (trace → common), making them poor candidates for organics production.</li>
-                        <li>Jungle, terran, and water worlds are the best for organics — they start at common and can reach plentiful with two improvement projects.</li>
-                    </ul>
                 </div>
             </section>
         </div>

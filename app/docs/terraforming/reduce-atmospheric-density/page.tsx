@@ -1,14 +1,14 @@
 import Banner from "../../../components/Banner";
 import NavigationHeader from "../../../components/NavigationHeader";
-import AtmosphereManipulation from "../../../components/terraforming/projects/AtmosphereManipulation";
+import ReduceAtmosphericDensity from "../../../components/terraforming/projects/ReduceAtmosphericDensity";
 import ButtonFooter from "../../../components/ButtonFooter";
 
-export default function AtmosphereManipulationPage() {
+export default function ReduceAtmosphericDensityPage() {
   return (
     <main>
       <Banner />
       <NavigationHeader />
-      <AtmosphereManipulation />
+      <ReduceAtmosphericDensity />
       <ButtonFooter />
     </main>
   );

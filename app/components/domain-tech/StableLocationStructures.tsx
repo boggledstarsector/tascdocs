@@ -5,10 +5,24 @@ export default function StableLocationStructures() {
         <div className="w-full lg:max-w-[1200px] lg:mx-auto">
             <section className="flex flex-col py-8 px-[2.5%] gap-4 text-base leading-relaxed">
                 <h1 className="text-3xl font-bold">Stable Location Structures</h1>
-                <div className="md:max-w-[750px]"><span className="italic">TASC adds the ability to construct Domain-tech stable location structures and upgrade existing sector-tech structures to their Domain-tech equivalents. Additionally, inactive gates can be constructed at stable locations once certain criteria are met.</span></div>
+                <div className="md:max-w-[750px]">TASC adds the ability to construct Domain-tech stable location structures and upgrade existing sector-tech structures to their Domain-tech equivalents. Additionally, inactive gates can be constructed at stable locations once certain criteria are met.</div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
 
                 <h2 className="text-2xl font-bold mt-4">Domain-tech Structures</h2>
+                <div className="flex flex-row flex-wrap items-start gap-6">
+                    <div className="flex flex-col items-center gap-1">
+                        <img src="/images/illustrations/comm_relay.jpg" alt="Domain-tech Comm Relay" className="w-48 h-auto border" style={{ borderColor: 'rgb(5, 250, 250)' }} />
+                        <div className="text-sm">Comm Relay</div>
+                    </div>
+                    <div className="flex flex-col items-center gap-1">
+                        <img src="/images/illustrations/sensor_array.jpg" alt="Domain-tech Sensor Array" className="w-48 h-auto border" style={{ borderColor: 'rgb(5, 250, 250)' }} />
+                        <div className="text-sm">Sensor Array</div>
+                    </div>
+                    <div className="flex flex-col items-center gap-1">
+                        <img src="/images/illustrations/nav_buoy.jpg" alt="Domain-tech Nav Buoy" className="w-48 h-auto border" style={{ borderColor: 'rgb(5, 250, 250)' }} />
+                        <div className="text-sm">Nav Buoy</div>
+                    </div>
+                </div>
                 <div className="md:max-w-[750px]">When interacting with a stable location, the player can construct one of three Domain-tech structure types or upgrade an existing sector-tech (makeshift) structure to its Domain-tech equivalent.</div>
 
                 <div className="flex flex-col gap-1">
@@ -70,6 +84,16 @@ export default function StableLocationStructures() {
                 </div>
 
                 <h2 className="text-2xl font-bold mt-4">Gate Construction</h2>
+                <div className="flex flex-row flex-wrap items-start gap-6">
+                    <div className="flex flex-col items-center gap-1">
+                        <img src="/images/illustrations/inactive_gate.jpg" alt="Inactive gate" className="w-48 h-auto border" style={{ borderColor: 'rgb(5, 250, 250)' }} />
+                        <div className="text-sm">Inactive Gate</div>
+                    </div>
+                    <div className="flex flex-col items-center gap-1">
+                        <img src="/images/illustrations/active_gate.jpg" alt="Active gate" className="w-48 h-auto border" style={{ borderColor: 'rgb(5, 250, 250)' }} />
+                        <div className="text-sm">Active Gate</div>
+                    </div>
+                </div>
                 <div className="md:max-w-[750px]">Inactive gates can be constructed at stable locations. Once built, the gate becomes a neutral entity and functions like any other gate in the Sector.</div>
 
                 <div className="flex flex-col gap-1">
