@@ -13,7 +13,7 @@ export default function Genelab() {
                             className="h-auto border"
                             style={{ borderColor: 'rgb(5, 250, 250)' }}
                         />
-                        <div className="italic opacity-60 text-sm">Lobster variant (water-surface worlds)</div>
+                        <div className="italic opacity-60 text-sm">Lobster variant (<Link href="https://starsector.wiki.gg/wiki/Market_condition#Farmland" style={{ color: 'inherit' }}>water-surface</Link> worlds)</div>
                     </div>
                     <div className="flex flex-col gap-1 items-start">
                         <img
@@ -25,7 +25,7 @@ export default function Genelab() {
                         <div className="italic opacity-60 text-sm">T-Rex variant (all other worlds)</div>
                     </div>
                 </div>
-                <div className="md:max-w-[750px]"><span className="italic">Genetic engineering has countless applications, such as remediating pollution using microbes that consume toxic waste, seeding oceans with delicious crustaceans, and creating realistic copies of extinct Old Earth megafauna.</span></div>
+                <div className="md:max-w-[750px]"><span className="italic">Genetic engineering has countless applications, such as remediating <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'inherit' }}>pollution</Link> using microbes that consume toxic waste, seeding oceans with delicious crustaceans, and creating realistic copies of extinct Old Earth megafauna.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>300,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>90</span> days</div>
@@ -35,16 +35,16 @@ export default function Genelab() {
                     <div>Demand:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/Commodity">
+                            <Link href="/docs/domain-archaeology">
                                 <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10" />
                             </Link>
-                            <span>colony size - 2 <span className="italic opacity-60">(4 on NPC-owned colonies; only demanded when Domain-tech content and Domain Archaeology are enabled)</span></span>
+                            <span>colony size - 2 <span className="italic opacity-60">(4 on NPC-owned colonies; only demanded when Domain-tech content and <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> are enabled)</span></span>
                         </div>
                         <div className="flex items-center gap-2">
                             <Link href="https://starsector.wiki.gg/wiki/Organics">
                                 <img src="/images/commodities/organics.png" alt="Organics" className="h-10 w-10" />
                             </Link>
-                            <span>colony size - 2 <span className="italic opacity-60">(not demanded on habitable worlds)</span></span>
+                            <span>colony size - 2 <span className="italic opacity-60">(not demanded on <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'inherit' }}>habitable</Link> worlds)</span></span>
                         </div>
                     </div>
                 </div>
@@ -52,34 +52,34 @@ export default function Genelab() {
                     <div>Effects:</div>
                     <ul className="list-disc list-inside pl-4">
                         <li>Increases <Link href="/docs/mesozoic-park" style={{ color: 'rgb(5, 250, 250)' }}>Mesozoic Park</Link> income by <span style={{ color: 'rgb(255, 210, 0)' }}>100%</span> when both buildings are present on the same colony and the Genelab is functional.</li>
-                        <li>After <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days of continuous operation on a habitable world, removes the <Link href="https://starsector.wiki.gg/wiki/Market_condition#Habitat" style={{ color: 'rgb(5, 250, 250)' }}>pollution</Link> condition.
+                        <li>After <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days of continuous operation on a habitable world, removes the <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>pollution</Link> condition.
                             <ul className="list-disc list-inside pl-6">
-                                <li className="italic opacity-60">The pollution remediation project length (default <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days) is configurable in LunaLib settings.</li>
+                                <li className="italic opacity-60">The <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'inherit' }}>pollution</Link> remediation project length is configurable in <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings.</li>
                             </ul>
                         </li>
                         <li>Pollution remediation cannot begin while a <Link href="https://starsector.wiki.gg/wiki/Heavy_Industry" style={{ color: 'rgb(5, 250, 250)' }}>Heavy Industry</Link> or <Link href="https://starsector.wiki.gg/wiki/Orbital_Works" style={{ color: 'rgb(5, 250, 250)' }}>Orbital Works</Link> on the same colony has a corrupted or pristine nanoforge installed (the polluting source must be removed first).</li>
-                        <li>After <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days of continuous operation on a water-surface world, adds the <Link href="https://starsector.wiki.gg/wiki/Market_condition#Special" style={{ color: 'rgb(5, 250, 250)' }}>Volturnian lobster pens</Link> condition.
+                        <li>After <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days of continuous operation on a water-surface world, adds the <Link href="https://starsector.wiki.gg/wiki/Market_condition#Farmland" style={{ color: 'rgb(5, 250, 250)' }}>Volturnian lobster pens</Link> condition.
                             <ul className="list-disc list-inside pl-6">
-                                <li className="italic opacity-60">The lobster seeding project length (default <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days) is configurable in LunaLib settings.</li>
+                                <li className="italic opacity-60">The lobster seeding project length is configurable in <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings.</li>
                             </ul>
                         </li>
-                        <li>The Mesozoic Park income bonus is reduced by <span style={{ color: 'rgb(255, 210, 0)' }}>50%</span> per unit of deficit in organics or domain-era artifacts, bottoming out at <span style={{ color: 'rgb(255, 210, 0)' }}>0%</span>.</li>
+                        <li>The Mesozoic Park income bonus is reduced by <span style={{ color: 'rgb(255, 210, 0)' }}>50%</span> per unit of deficit in organics or <Link href="/docs/domain-archaeology" style={{ color: 'rgb(5, 250, 250)' }}>domain-era artifacts</Link>, bottoming out at <span style={{ color: 'rgb(255, 210, 0)' }}>0%</span>.</li>
                         <li>Pollution remediation and lobster seeding progress stall while the Genelab is disrupted or while any demanded commodity is in deficit.</li>
                     </ul>
                 </div>
                 <div className="flex flex-col gap-1">
-                    <div>AI core effects:</div>
+                    <div><Link href="https://starsector.wiki.gg/wiki/AI_core" style={{ color: 'rgb(5, 250, 250)' }}>AI core</Link> effects:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" /></Link>
                             <span>Increases <Link href="/docs/mesozoic-park" style={{ color: 'rgb(5, 250, 250)' }}>Mesozoic Park</Link> income by an additional <span style={{ color: 'rgb(255, 210, 0)' }}>60%</span>.</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" /></Link>
                             <span>Increases <Link href="/docs/mesozoic-park" style={{ color: 'rgb(5, 250, 250)' }}>Mesozoic Park</Link> income by an additional <span style={{ color: 'rgb(255, 210, 0)' }}>30%</span>.</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" /></Link>
                             <span>Increases <Link href="/docs/mesozoic-park" style={{ color: 'rgb(5, 250, 250)' }}>Mesozoic Park</Link> income by an additional <span style={{ color: 'rgb(255, 210, 0)' }}>15%</span>.</span>
                         </div>
                     </div>

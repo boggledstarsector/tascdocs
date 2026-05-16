@@ -14,7 +14,7 @@ export default function PlanetaryAgravField() {
                     />
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">The agrav field generators used on starships work on the surface of planets - the problem is building a large enough network of generators to envelop the entire colony. This is only economically feasible when the bulk of the populace is housed within the confines of a few domed cities.</span></div>
-                <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use LunaLib settings to enable)</span></div>
+                <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings to enable)</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>300,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>60</span> days</div>
                 <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>2,000¢</span> * (colony size - 2)</div>
@@ -28,18 +28,18 @@ export default function PlanetaryAgravField() {
                     </ul>
                 </div>
                 <div className="flex flex-col gap-1">
-                    <div>AI core effects:</div>
+                    <div><Link href="https://starsector.wiki.gg/wiki/AI_core" style={{ color: 'rgb(5, 250, 250)' }}>AI core</Link> effects:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                     </div>

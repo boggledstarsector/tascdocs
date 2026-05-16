@@ -14,7 +14,7 @@ export default function OuyangOptimizer() {
                     />
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">Each gas giant has unique weather patterns. Ouyang optimization permanently alters these patterns to maximize availability of volatiles for extraction - at the cost of making the weather more extreme, and thus more hazardous to inhabitants of the planet. This effect persists even after the Ouyang Optimizer is deconstructed.</span></div>
-                <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use LunaLib settings to enable)</span></div>
+                <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings to enable)</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>150,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>30</span> days</div>
                 <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000¢</span> * (colony size - 2)</div>
@@ -23,9 +23,9 @@ export default function OuyangOptimizer() {
                 <div className="flex flex-col gap-1">
                     <div>Effects:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>After <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days of continuous operation, permanently increases the <Link href="https://starsector.wiki.gg/wiki/Volatiles" style={{ color: 'rgb(5, 250, 250)' }}>volatiles</Link> deposit level on the host gas giant by one step and adds the <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>extreme weather</Link> condition.
+                        <li>After <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days of continuous operation, permanently increases the <Link href="https://starsector.wiki.gg/wiki/Market_condition#Volatiles_reserves" style={{ color: 'rgb(5, 250, 250)' }}>volatiles</Link> deposit level on the host gas giant by one step and adds the <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>extreme weather</Link> condition.
                             <ul className="list-disc list-inside pl-6">
-                                <li className="italic opacity-60">The optimization project length (default <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days) is configurable in LunaLib settings.</li>
+                                <li className="italic opacity-60">The optimization project length is configurable in <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings.</li>
                             </ul>
                         </li>
                         <li>The volatiles improvement and extreme weather condition persist even after the Ouyang Optimizer is deconstructed.</li>
@@ -33,18 +33,18 @@ export default function OuyangOptimizer() {
                     </ul>
                 </div>
                 <div className="flex flex-col gap-1">
-                    <div>AI core effects:</div>
+                    <div><Link href="https://starsector.wiki.gg/wiki/AI_core" style={{ color: 'rgb(5, 250, 250)' }}>AI core</Link> effects:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                     </div>

@@ -62,8 +62,10 @@ export default function StableLocationStructures() {
                             <span><span style={{ color: 'rgb(255, 210, 0)' }}>20</span> transplutonics</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10" />
-                            <span><span style={{ color: 'rgb(255, 210, 0)' }}>20</span> Domain-era artifacts <span className="italic opacity-60">(only required if <Link href="/docs/domain-archaeology" style={{ color: 'rgb(5, 250, 250)' }}>Domain Archaeology</Link> is enabled)</span></span>
+                            <Link href="/docs/domain-archaeology">
+                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10" />
+                            </Link>
+                            <span><span style={{ color: 'rgb(255, 210, 0)' }}>20</span> <Link href="/docs/domain-archaeology" style={{ color: 'rgb(5, 250, 250)' }}>Domain-era artifacts</Link> <span className="italic opacity-60">(only required if <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> is enabled)</span></span>
                         </div>
                     </div>
                 </div>
@@ -74,12 +76,12 @@ export default function StableLocationStructures() {
                         <li>
                             Existing sector-tech (makeshift) structures controlled by another faction can be upgraded to Domain-tech.
                             <ul className="list-inside pl-4 mt-0 mb-1" style={{ listStyleType: 'circle' }}>
-                                <li>Upgrading a faction&apos;s structure improves your relationship with that faction by <span style={{ color: 'rgb(255, 210, 0)' }}>5%</span>. <span className="italic opacity-60">(magnitude can be adjusted via LunaLib settings)</span></li>
+                                <li>Upgrading a faction&apos;s structure improves your relationship with that faction by <span style={{ color: 'rgb(255, 210, 0)' }}>5%</span>. <span className="italic opacity-60">(magnitude can be adjusted via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></li>
                                 <li>Upgrading structures controlled by pirates or Luddic Path does not improve relations.</li>
                             </ul>
                         </li>
                         <li>If you already control a structure of the same type in the system, the game will warn that an additional one would have no effect beyond providing redundancy.</li>
-                        <li>All resource costs are configurable via LunaLib settings.</li>
+                        <li>All resource costs are configurable via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'rgb(5, 250, 250)' }}>LunaLib</Link> settings.</li>
                     </ul>
                 </div>
 
@@ -118,8 +120,10 @@ export default function StableLocationStructures() {
                             <span><span style={{ color: 'rgb(255, 210, 0)' }}>200</span> transplutonics</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10" />
-                            <span><span style={{ color: 'rgb(255, 210, 0)' }}>200</span> Domain-era artifacts <span className="italic opacity-60">(only required if <Link href="/docs/domain-archaeology" style={{ color: 'rgb(5, 250, 250)' }}>Domain Archaeology</Link> is enabled)</span></span>
+                            <Link href="/docs/domain-archaeology">
+                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10" />
+                            </Link>
+                            <span><span style={{ color: 'rgb(255, 210, 0)' }}>200</span> Domain-era artifacts <span className="italic opacity-60">(only required if <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> is enabled)</span></span>
                         </div>
                     </div>
                 </div>
@@ -127,8 +131,8 @@ export default function StableLocationStructures() {
                 <div className="flex flex-col gap-1">
                     <div>Requirements:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>The player must have completed the <Link href="https://starsector.wiki.gg/wiki/Main_Questline" style={{ color: 'rgb(5, 250, 250)' }}>main questline</Link>. <span className="italic opacity-60">(can be disabled via LunaLib settings)</span></li>
-                        <li>The player must own a colony of at least size <span style={{ color: 'rgb(255, 210, 0)' }}>5</span> in the system. <span className="italic opacity-60">(can be disabled or adjusted via LunaLib settings)</span></li>
+                        <li>The player must have completed the <Link href="https://starsector.wiki.gg/wiki/Main_Questline" style={{ color: 'rgb(5, 250, 250)' }}>main questline</Link>. <span className="italic opacity-60">(can be disabled via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></li>
+                        <li>The player must own a colony of at least size <span style={{ color: 'rgb(255, 210, 0)' }}>5</span> in the system. <span className="italic opacity-60">(can be disabled or adjusted via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></li>
                         <li>There must not already be a <Link href="https://starsector.wiki.gg/wiki/Gates" style={{ color: 'rgb(5, 250, 250)' }}>gate</Link> in the system.</li>
                     </ul>
                 </div>

@@ -11,14 +11,14 @@ export default function RemoveAtmosphere() {
                         <div className="text-sm">No Atmosphere <span className="italic opacity-60">(added)</span></div>
                     </div>
                 </div>
-                <div>Duration: <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days <span className="italic opacity-60">(configurable via LunaLib settings)</span></div>
-                <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span> <span className="italic opacity-60">(can be enabled via LunaLib settings)</span></div>
+                <div>Duration: <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days <span className="italic opacity-60">(configurable via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></div>
+                <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span> <span className="italic opacity-60">(can be enabled via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></div>
 
                 <div className="flex flex-col gap-1">
                     <div>Requirements:</div>
                     <ul className="list-disc list-inside pl-4">
                         <li>World type allows <Link href="/docs/terraforming" style={{ color: 'rgb(5, 250, 250)' }}>terraforming</Link></li>
-                        <li>Planet is not a <Link href="https://starsector.wiki.gg/wiki/Water_Surface" style={{ color: 'rgb(5, 250, 250)' }}>water world</Link></li>
+                        <li>Planet is not a <Link href="https://starsector.wiki.gg/wiki/Market_condition#Farmland" style={{ color: 'rgb(5, 250, 250)' }}>water world</Link></li>
                         <li>Planet has an atmosphere</li>
                         <li><Link href="/docs/atmosphere-processor" style={{ color: 'rgb(5, 250, 250)' }}>Atmosphere Processor</Link> is operational on the colony</li>
                     </ul>
@@ -27,8 +27,8 @@ export default function RemoveAtmosphere() {
                 <div className="flex flex-col gap-1">
                     <div>Results:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>Adds <Link href="https://starsector.wiki.gg/wiki/No_Atmosphere" style={{ color: 'rgb(5, 250, 250)' }}>no atmosphere</Link></li>
-                        <li>Removes thin atmosphere, dense atmosphere, toxic atmosphere, <Link href="https://starsector.wiki.gg/wiki/Habitable" style={{ color: 'rgb(5, 250, 250)' }}>habitable</Link>, <Link href="https://starsector.wiki.gg/wiki/Mild_Climate" style={{ color: 'rgb(5, 250, 250)' }}>mild climate</Link>, <Link href="https://starsector.wiki.gg/wiki/Extreme_Weather" style={{ color: 'rgb(5, 250, 250)' }}>extreme weather</Link>, <Link href="https://starsector.wiki.gg/wiki/Inimical_Biosphere" style={{ color: 'rgb(5, 250, 250)' }}>inimical biosphere</Link>, all <Link href="https://starsector.wiki.gg/wiki/Farmland" style={{ color: 'rgb(5, 250, 250)' }}>farmland</Link> conditions, and <Link href="https://starsector.wiki.gg/wiki/Pollution" style={{ color: 'rgb(5, 250, 250)' }}>pollution</Link></li>
+                        <li>Adds <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>no atmosphere</Link></li>
+                        <li>Removes thin atmosphere, dense atmosphere, toxic atmosphere, <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>habitable</Link>, <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>mild climate</Link>, <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>extreme weather</Link>, <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>inimical biosphere</Link>, all <Link href="https://starsector.wiki.gg/wiki/Market_condition#Farmland" style={{ color: 'rgb(5, 250, 250)' }}>farmland</Link> conditions, and <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>pollution</Link></li>
                     </ul>
                 </div>
 

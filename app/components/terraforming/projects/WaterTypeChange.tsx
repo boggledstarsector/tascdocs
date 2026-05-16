@@ -9,7 +9,7 @@ export default function WaterTypeChange() {
                     <img src="/images/planets/water.jpg" alt="Water planet texture" className="w-80 h-auto border" style={{ borderColor: 'rgb(5, 250, 250)' }} />
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">A primitive atmosphere covers a world-ocean hundreds of kilometers deep. Its waters teem with primitive life and vast algae-analog mats can be seen by instruments from space. A core of water-ice over a rocky mantle is created by the terrific pressure of the sea.</span></div>
-                <div>Duration: <span style={{ color: 'rgb(255, 210, 0)' }}>400</span> days <span className="italic opacity-60">(configurable via LunaLib settings)</span></div>
+                <div>Duration: <span style={{ color: 'rgb(255, 210, 0)' }}>400</span> days <span className="italic opacity-60">(configurable via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></div>
 
                 <div className="flex flex-col gap-1">
                     <div>Requirements:</div>
@@ -17,8 +17,8 @@ export default function WaterTypeChange() {
                         <li>World type allows <Link href="/docs/terraforming" style={{ color: 'rgb(5, 250, 250)' }}>terraforming</Link></li>
                         <li>Planet is not already a water world</li>
                         <li>Atmospheric density is normal</li>
-                        <li>Atmosphere is not <Link href="https://starsector.wiki.gg/wiki/Toxic_Atmosphere" style={{ color: 'rgb(5, 250, 250)' }}>toxic</Link> or <Link href="https://starsector.wiki.gg/wiki/Irradiated" style={{ color: 'rgb(5, 250, 250)' }}>irradiated</Link></li>
-                        <li>Temperature is not <Link href="https://starsector.wiki.gg/wiki/Very_Hot" style={{ color: 'rgb(5, 250, 250)' }}>very hot</Link> or <Link href="https://starsector.wiki.gg/wiki/Very_Cold" style={{ color: 'rgb(5, 250, 250)' }}>very cold</Link></li>
+                        <li>Atmosphere is not <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>toxic</Link> or <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>irradiated</Link></li>
+                        <li>Temperature is not <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>very hot</Link> or <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>very cold</Link></li>
                         <li><Link href="/docs/stellar-reflector-array" style={{ color: 'rgb(5, 250, 250)' }}>Stellar Reflector Array</Link> is operational on the colony</li>
                         <li>Water level is <span style={{ color: 'rgb(255, 210, 0)' }}>high</span></li>
                     </ul>
@@ -27,10 +27,10 @@ export default function WaterTypeChange() {
                 <div className="flex flex-col gap-1">
                     <div>Results:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>Planet type changes to <span style={{ color: 'rgb(5, 250, 250)' }}>water</span></li>
-                        <li>Adds <Link href="https://starsector.wiki.gg/wiki/Habitable" style={{ color: 'rgb(5, 250, 250)' }}>habitable</Link> condition</li>
-                        <li>Adds <Link href="https://starsector.wiki.gg/wiki/Water_Surface" style={{ color: 'rgb(5, 250, 250)' }}>water surface</Link> condition</li>
-                        <li>Adds <Link href="https://starsector.wiki.gg/wiki/Organics" style={{ color: 'rgb(5, 250, 250)' }}>organics</Link> (common)</li>
+                        <li>Planet type changes to water</li>
+                        <li>Adds <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>habitable</Link> condition</li>
+                        <li>Adds <Link href="https://starsector.wiki.gg/wiki/Market_condition#Farmland" style={{ color: 'rgb(5, 250, 250)' }}>water surface</Link> condition</li>
+                        <li>Adds <Link href="https://starsector.wiki.gg/wiki/Market_condition#Organics_reserves" style={{ color: 'rgb(5, 250, 250)' }}>organics</Link> (common)</li>
                         <li><span style={{ color: 'rgb(200, 10, 20)' }}>No farmland</span> — water worlds cannot support farmland</li>
                         <li>Removes all pre-existing atmosphere, weather, biosphere, farmland, organics, and volatiles conditions</li>
                     </ul>
@@ -39,11 +39,8 @@ export default function WaterTypeChange() {
                 <div className="flex flex-col gap-1">
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>Water worlds do not receive farmland. If you need food production, consider <Link href="/docs/hydroponics" style={{ color: 'rgb(5, 250, 250)' }}>Hydroponics</Link> or <Link href="/docs/seafloor-cities" style={{ color: 'rgb(5, 250, 250)' }}>Seafloor Cities</Link> (which enables <Link href="https://starsector.wiki.gg/wiki/Aquaculture" style={{ color: 'rgb(5, 250, 250)' }}>aquaculture</Link>).</li>
-                        <li>Organics can be improved up to <span style={{ color: 'rgb(255, 210, 0)' }}>plentiful</span> on water worlds via the <Link href="/docs/terraforming/organics-improvement" style={{ color: 'rgb(5, 250, 250)' }}>organics improvement</Link> project.</li>
-                        <li>Volatiles can be improved up to <span style={{ color: 'rgb(255, 210, 0)' }}>abundant</span> on water worlds (not plentiful).</li>
-                        <li>If <Link href="/docs/mesozoic-park" style={{ color: 'rgb(5, 250, 250)' }}>Mesozoic Park</Link> is built, the <Link href="https://starsector.wiki.gg/wiki/Inimical_Biosphere" style={{ color: 'rgb(5, 250, 250)' }}>inimical biosphere</Link> condition will be re-added after the type change.</li>
-                        <li>Existing <Link href="/docs/genelab" style={{ color: 'rgb(5, 250, 250)' }}>Volturnian lobster pens</Link> are preserved when the target type is water.</li>
+                        <li>Planets with low base water will need an <Link href="/docs/ismaras-sling" style={{ color: 'rgb(5, 250, 250)' }}>Ismara&apos;s Sling</Link> or <Link href="/docs/asteroid-processing" style={{ color: 'rgb(5, 250, 250)' }}>Asteroid Processing</Link> facility in the same system to reach high water level.</li>
+                        <li>After the type change, resources start at their base level for water worlds. Use <Link href="/docs/terraforming/organics-improvement" style={{ color: 'rgb(5, 250, 250)' }}>organics</Link> and <Link href="/docs/terraforming/volatiles-improvement" style={{ color: 'rgb(5, 250, 250)' }}>volatiles</Link> improvement projects to increase them further.</li>
                         <li>Ore deposits are <span style={{ color: 'rgb(200, 10, 20)' }}>never modified</span> by terraforming projects.</li>
                     </ul>
                 </div>

@@ -23,12 +23,12 @@ export default function VolatilesImprovement() {
                         <div className="text-sm">Plentiful</div>
                     </div>
                 </div>
-                <div>Duration: <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days <span className="italic opacity-60">(configurable via LunaLib settings)</span></div>
+                <div>Duration: <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days <span className="italic opacity-60">(configurable via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></div>
 
                 <div className="flex flex-col gap-1">
                     <div>Requirements:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>World type supports <Link href="https://starsector.wiki.gg/wiki/Volatiles" style={{ color: 'rgb(5, 250, 250)' }}>volatiles</Link> improvement</li>
+                        <li>World type supports <Link href="https://starsector.wiki.gg/wiki/Market_condition#Volatiles_reserves" style={{ color: 'rgb(5, 250, 250)' }}>volatiles</Link> improvement</li>
                         <li>Volatiles can be improved further</li>
                     </ul>
                 </div>

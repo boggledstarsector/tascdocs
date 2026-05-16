@@ -23,7 +23,7 @@ export default function IsmarasSling() {
                     <div>Demand:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/Heavy_machinery">
+                            <Link href="https://starsector.wiki.gg/wiki/Heavy_Machinery">
                                 <img src="/images/commodities/heavymachinery.png" alt="Heavy Machinery" className="h-10 w-10" />
                             </Link>
                             <span>6</span>
@@ -35,22 +35,22 @@ export default function IsmarasSling() {
                     <ul className="list-disc list-inside pl-4">
                         <li>Acts as a water source for terraforming projects that require liquid water. Any such project on a world in the same star system can draw water from this building.</li>
                         <li>If the <Link href="https://starsector.wiki.gg/wiki/Heavy_Machinery" style={{ color: 'rgb(5, 250, 250)' }}>heavy machinery</Link> demand is in shortage, no water can be supplied for terraforming projects until the shortage is resolved.</li>
-                        <li>If the planet Ismara's Sling is located on is terraformed to a type that is not cryovolcanic, frozen, or water-covered, the sling is automatically deconstructed. Any installed AI core is placed in colony storage.</li>
+                        <li>If the planet Ismara's Sling is located on is terraformed to a type that is not cryovolcanic, frozen, or water-covered, the sling is automatically deconstructed. Any installed <Link href="https://starsector.wiki.gg/wiki/AI_core" style={{ color: 'rgb(5, 250, 250)' }}>AI core</Link> is placed in colony storage.</li>
                     </ul>
                 </div>
                 <div className="flex flex-col gap-1">
                     <div>AI core effects:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                     </div>

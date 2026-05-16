@@ -14,7 +14,7 @@ export default function PerihelionProject() {
                     />
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">Construct a coronal tap. Building a megastructure of this size and complexity requires a staggering amount of raw materials - far beyond what any of the major factions can muster.</span></div>
-                <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use LunaLib settings to enable)</span></div>
+                <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings to enable)</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>180</span> days</div>
                 <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>96,000¢</span></div>
@@ -41,8 +41,10 @@ export default function PerihelionProject() {
                             <span>7</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10" />
-                            <span>7 <span className="italic opacity-60">(only demanded when Domain-tech content and Domain Archaeology are enabled)</span></span>
+                            <Link href="/docs/domain-archaeology">
+                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10" />
+                            </Link>
+                            <span>7 <span className="italic opacity-60">(only demanded when Domain-tech content and <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> are enabled)</span></span>
                         </div>
                     </div>
                 </div>
@@ -51,26 +53,26 @@ export default function PerihelionProject() {
                     <ul className="list-disc list-inside pl-4">
                         <li>After <span style={{ color: 'rgb(255, 210, 0)' }}>400</span> days of continuous operation with no shortages (after this building is completed), creates a <Link href="https://starsector.wiki.gg/wiki/Coronal_Hypershunt" style={{ color: 'rgb(5, 250, 250)' }}>coronal tap</Link> in the host star system.
                             <ul className="list-disc list-inside pl-6">
-                                <li className="italic opacity-60">The coronal tap construction length (default <span style={{ color: 'rgb(255, 210, 0)' }}>400</span> days) is configurable in LunaLib settings.</li>
+                                <li className="italic opacity-60">The coronal tap construction length (default <span style={{ color: 'rgb(255, 210, 0)' }}>400</span> days) is configurable in <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings.</li>
                             </ul>
                         </li>
-                        <li>When <Link href="https://www.ashesofthedomain.info/" style={{ color: 'rgb(5, 250, 250)' }}>Ashes of the Domain</Link> is installed, the Perihelion Project has no commodity demands, the coronal tap is created immediately upon building construction completion, and the player must use the Ashes of the Domain megastructure tab to bring it online.</li>
+                        <li>When <Link href="https://fractalsoftworks.com/forum/index.php?topic=26307.0" style={{ color: 'rgb(5, 250, 250)' }}>Ashes of the Domain</Link> is installed, the Perihelion Project has no commodity demands, the coronal tap is created immediately upon building construction completion, and the player must use the Ashes of the Domain megastructure tab to bring it online.</li>
                         <li>Once construction is complete, the coronal tap appears in the system and the Perihelion Project industry is removed from the colony.</li>
                     </ul>
                 </div>
                 <div className="flex flex-col gap-1">
-                    <div>AI core effects:</div>
+                    <div><Link href="https://starsector.wiki.gg/wiki/AI_core" style={{ color: 'rgb(5, 250, 250)' }}>AI core</Link> effects:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                     </div>

@@ -23,10 +23,10 @@ export default function LimelightNetwork() {
                     <div>Demand:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/Commodity">
+                            <Link href="/docs/domain-archaeology">
                                 <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10" />
                             </Link>
-                            <span>colony size - 2 <span className="italic opacity-60">(only demanded when Domain-tech content and Domain Archaeology are enabled)</span></span>
+                            <span>colony size - 2 <span className="italic opacity-60">(only demanded when Domain-tech content and <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> are enabled)</span></span>
                         </div>
                     </div>
                 </div>
@@ -35,22 +35,22 @@ export default function LimelightNetwork() {
                     <ul className="list-disc list-inside pl-4">
                         <li>Generates a large amount of income.</li>
                         <li>On player-owned colonies, reduces production of every commodity at every other industry on the colony by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>.</li>
-                        <li>On player-owned colonies, if the demand for <Link href="https://starsector.wiki.gg/wiki/Commodity" style={{ color: 'rgb(5, 250, 250)' }}>Domain-era artifacts</Link> is unmet, the building generates no income and colony stability is reduced by the size of the shortage.</li>
+                        <li>On player-owned colonies, if the demand for <Link href="/docs/domain-archaeology" style={{ color: 'rgb(5, 250, 250)' }}>Domain-era artifacts</Link> is unmet, the building generates no income and colony stability is reduced by the size of the shortage.</li>
                     </ul>
                 </div>
                 <div className="flex flex-col gap-1">
-                    <div>AI core effects:</div>
+                    <div><Link href="https://starsector.wiki.gg/wiki/AI_core" style={{ color: 'rgb(5, 250, 250)' }}>AI core</Link> effects:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" /></Link>
                             <span>Increases income by <span style={{ color: 'rgb(255, 210, 0)' }}>30%</span>, reduces demand by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span> and reduces upkeep by <span style={{ color: 'rgb(255, 210, 0)' }}>25%</span>.</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" /></Link>
                             <span>Reduces demand by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span> and reduces upkeep by <span style={{ color: 'rgb(255, 210, 0)' }}>25%</span>.</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" /></Link>
                             <span>Reduces demand by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>.</span>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ export default function LimelightNetwork() {
                 <div className="flex flex-col gap-1">
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>Appears pre-built on Fikenhild when the &quot;Add Domain-tech buildings to several colonies&quot; LunaLib setting is enabled.</li>
+                        <li>Appears pre-built on Fikenhild when the &quot;Add Domain-tech buildings to several colonies&quot; <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'rgb(5, 250, 250)' }}>LunaLib</Link> setting is enabled.</li>
                     </ul>
                 </div>
                 <div><Link href="https://starsector.wiki.gg/wiki/Colony#Luddic_Path_cells" style={{ color: 'rgb(5, 250, 250)' }}>Pather interest</Link>: <span style={{ color: 'rgb(255, 210, 0)' }}>10</span> <span className="italic opacity-60">(only on player-owned colonies)</span></div>

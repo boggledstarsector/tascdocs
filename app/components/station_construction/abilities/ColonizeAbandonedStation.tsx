@@ -9,10 +9,10 @@ export default function ColonizeAbandonedStation() {
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
                 <div className="flex items-center gap-2">Ability icon: <img src="/images/abilities/colonize_abandoned_station.png" alt="Colonize Abandoned Station Ability" className="h-10 w-10" /></div>
                 <div className="flex flex-wrap items-center gap-2">Recolonization cost: <span style={{ color: 'rgb(255, 210, 0)' }}>250,000¢</span>,
-                    <img src="/images/commodities/crew.png" alt="Crew" className="h-10 w-10" /> <span style={{ color: 'rgb(255, 210, 0)' }}>500</span>,
-                    <img src="/images/commodities/heavymachinery.png" alt="Heavy machinery" className="h-10 w-10" /> <span style={{ color: 'rgb(255, 210, 0)' }}>125</span>,
-                    <img src="/images/commodities/metals.png" alt="Metals" className="h-10 w-10" /> <span style={{ color: 'rgb(255, 210, 0)' }}>500</span>,
-                    <img src="/images/commodities/raremetals.png" alt="Transplutonics" className="h-10 w-10" /> <span style={{ color: 'rgb(255, 210, 0)' }}>125</span>
+                    <Link href="https://starsector.wiki.gg/wiki/Crew"><img src="/images/commodities/crew.png" alt="Crew" className="h-10 w-10" /></Link> <span style={{ color: 'rgb(255, 210, 0)' }}>500</span>,
+                    <Link href="https://starsector.wiki.gg/wiki/Heavy_Machinery"><img src="/images/commodities/heavymachinery.png" alt="Heavy machinery" className="h-10 w-10" /></Link> <span style={{ color: 'rgb(255, 210, 0)' }}>125</span>,
+                    <Link href="https://starsector.wiki.gg/wiki/Metals"><img src="/images/commodities/metals.png" alt="Metals" className="h-10 w-10" /></Link> <span style={{ color: 'rgb(255, 210, 0)' }}>500</span>,
+                    <Link href="https://starsector.wiki.gg/wiki/Transplutonics"><img src="/images/commodities/raremetals.png" alt="Transplutonics" className="h-10 w-10" /></Link> <span style={{ color: 'rgb(255, 210, 0)' }}>125</span>
                 </div>
                 <div className="flex flex-col gap-1">
                     <div>Notes:</div>

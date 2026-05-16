@@ -23,12 +23,12 @@ export default function FarmlandImprovement() {
                         <div className="text-sm">Bountiful</div>
                     </div>
                 </div>
-                <div>Duration: <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days <span className="italic opacity-60">(configurable via LunaLib settings)</span></div>
+                <div>Duration: <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days <span className="italic opacity-60">(configurable via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></div>
 
                 <div className="flex flex-col gap-1">
                     <div>Requirements:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>World type supports <Link href="https://starsector.wiki.gg/wiki/Farmland" style={{ color: 'rgb(5, 250, 250)' }}>farmland</Link></li>
+                        <li>World type supports <Link href="https://starsector.wiki.gg/wiki/Market_condition#Farmland" style={{ color: 'rgb(5, 250, 250)' }}>farmland</Link></li>
                         <li>Farmland can be improved further</li>
                         <li>Adequate water for the target tier:
                             <ul className="list-inside pl-4 mt-0 mb-1" style={{ listStyleType: 'circle' }}>
@@ -37,7 +37,7 @@ export default function FarmlandImprovement() {
                             </ul>
                         </li>
                         <li>Atmospheric density is normal</li>
-                        <li>Atmosphere is not <Link href="https://starsector.wiki.gg/wiki/Toxic_Atmosphere" style={{ color: 'rgb(5, 250, 250)' }}>toxic</Link> or <Link href="https://starsector.wiki.gg/wiki/Irradiated" style={{ color: 'rgb(5, 250, 250)' }}>irradiated</Link></li>
+                        <li>Atmosphere is not <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>toxic</Link> or <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>irradiated</Link></li>
                     </ul>
                 </div>
 

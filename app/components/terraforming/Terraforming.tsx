@@ -21,9 +21,9 @@ export default function Terraforming() {
                 <h2 className="text-2xl font-bold mt-4">Project Types</h2>
                 <div>There are three categories of terraforming projects, each with a configurable default duration:</div>
                 <ul className="list-disc list-inside pl-4">
-                    <li><Link href="#planet-type-changes" style={{ color: 'rgb(5, 250, 250)' }}>Planet type change</Link> — transforms the planet into a different type entirely. Takes <span style={{ color: 'rgb(255, 210, 0)' }}>400</span> days. <span className="italic opacity-60">(configurable via LunaLib settings)</span></li>
-                    <li><Link href="#resource-improvements" style={{ color: 'rgb(5, 250, 250)' }}>Resource improvement</Link> — increases the level of a natural resource (farmland, organics, or volatiles) by one tier. Takes <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days. <span className="italic opacity-60">(configurable via LunaLib settings)</span></li>
-                    <li><Link href="#condition-modifications" style={{ color: 'rgb(5, 250, 250)' }}>Condition modification</Link> — adds or removes a market condition such as atmosphere type, habitability, or climate. Takes <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days. <span className="italic opacity-60">(configurable via LunaLib settings)</span></li>
+                    <li><a href="#planet-type-changes" style={{ color: 'rgb(5, 250, 250)' }}>Planet type change</a> — transforms the planet into a different type entirely. Takes <span style={{ color: 'rgb(255, 210, 0)' }}>400</span> days. <span className="italic opacity-60">(configurable via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></li>
+                    <li><a href="#resource-improvements" style={{ color: 'rgb(5, 250, 250)' }}>Resource improvement</a> — increases the level of a natural resource (farmland, organics, or volatiles) by one tier. Takes <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days. <span className="italic opacity-60">(configurable via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></li>
+                    <li><a href="#condition-modifications" style={{ color: 'rgb(5, 250, 250)' }}>Condition modification</a> — adds or removes a market condition such as atmosphere type, habitability, or climate. Takes <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days. <span className="italic opacity-60">(configurable via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></li>
                 </ul>
 
                 <h2 className="text-2xl font-bold mt-4">Project Lifecycle</h2>
@@ -129,14 +129,14 @@ export default function Terraforming() {
                         </tbody>
                     </table>
                 </div>
-                <div className="italic opacity-60">* Volatiles deposits block installation of Soil Nanites. There is a LunaLib setting to prevent Terran and tundra planets from receiving volatiles by default.</div>
+                <div className="italic opacity-60">* Volatiles deposits block installation of <Link href="https://starsector.wiki.gg/wiki/Soil_Nanites" style={{ color: 'inherit' }}>Soil Nanites</Link>. There is a <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> setting to prevent Terran and tundra planets from receiving volatiles by default.</div>
 
                 <h2 className="text-2xl font-bold mt-4">Water Level</h2>
                 <div>Each planet has a water level of <span style={{ color: 'rgb(255, 210, 0)' }}>low</span>, <span style={{ color: 'rgb(255, 210, 0)' }}>medium</span>, or <span style={{ color: 'rgb(255, 210, 0)' }}>high</span>, determined by its TASC planet type (see table above). Many terraforming projects — particularly planet type changes and farmland improvements — require a minimum water level.</div>
                 <div>The water level is raised to <span style={{ color: 'rgb(255, 210, 0)' }}>high</span> if an operational <Link href="/docs/ismaras-sling" style={{ color: 'rgb(5, 250, 250)' }}>Ismara&apos;s Sling</Link> or <Link href="/docs/asteroid-processing" style={{ color: 'rgb(5, 250, 250)' }}>Asteroid Processing</Link> facility exists on any colony you own in the same star system. This is often necessary for terraforming barren, desert, toxic, or tundra worlds that have low or medium base water.</div>
 
                 <h2 className="text-2xl font-bold mt-4">Temperature</h2>
-                <div>Planets may have temperature conditions such as <Link href="https://starsector.wiki.gg/wiki/Hot" style={{ color: 'rgb(5, 250, 250)' }}>hot</Link>, <Link href="https://starsector.wiki.gg/wiki/Cold" style={{ color: 'rgb(5, 250, 250)' }}>cold</Link>, very hot, or very cold. Temperature <span style={{ color: 'rgb(200, 10, 20)' }}>cannot be permanently changed</span> by terraforming. However, the <Link href="/docs/stellar-reflector-array" style={{ color: 'rgb(5, 250, 250)' }}>Stellar Reflector Array</Link> building can suppress hot, cold, and poor light conditions while it is operational. Different planet type changes require different temperature ranges — for example, a terran type change requires the planet not be very hot or very cold, while a frozen type change requires the planet to be very cold.</div>
+                <div>Planets may have temperature conditions such as <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>hot</Link>, <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>cold</Link>, <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>very hot</Link>, or <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>very cold</Link>. Temperature <span style={{ color: 'rgb(200, 10, 20)' }}>cannot be permanently changed</span> by terraforming. However, the <Link href="/docs/stellar-reflector-array" style={{ color: 'rgb(5, 250, 250)' }}>Stellar Reflector Array</Link> building can suppress hot, cold, and poor light conditions while it is operational. Different planet type changes require different temperature ranges — for example, a terran type change requires the planet not be very hot or very cold, while a frozen type change requires the planet to be very cold.</div>
 
                 <h2 className="text-2xl font-bold mt-4">All Terraforming Projects</h2>
 
@@ -149,11 +149,17 @@ export default function Terraforming() {
                         <li><Link href="/docs/terraforming/jungle-type-change" style={{ color: 'rgb(5, 250, 250)' }}>Jungle Type Change</Link></li>
                         <li><Link href="/docs/terraforming/tundra-type-change" style={{ color: 'rgb(5, 250, 250)' }}>Tundra Type Change</Link></li>
                         <li><Link href="/docs/terraforming/frozen-type-change" style={{ color: 'rgb(5, 250, 250)' }}>Frozen Type Change</Link></li>
-                        <li><Link href="/docs/terraforming/alpine-type-change" style={{ color: 'rgb(5, 250, 250)' }}>Alpine Type Change</Link> <span className="italic opacity-60">(if Unknown Skies is enabled)</span></li>
-                        <li><Link href="/docs/terraforming/atoll-type-change" style={{ color: 'rgb(5, 250, 250)' }}>Atoll Type Change</Link> <span className="italic opacity-60">(if Unknown Skies is enabled)</span></li>
-                        <li><Link href="/docs/terraforming/sakura-type-change" style={{ color: 'rgb(5, 250, 250)' }}>Sakura Type Change</Link> <span className="italic opacity-60">(if Unknown Skies is enabled)</span></li>
-                        <li><Link href="/docs/terraforming/savannah-type-change" style={{ color: 'rgb(5, 250, 250)' }}>Savannah Type Change</Link> <span className="italic opacity-60">(if Unknown Skies is enabled)</span></li>
-                        <li><Link href="/docs/terraforming/storm-type-change" style={{ color: 'rgb(5, 250, 250)' }}>Storm Type Change</Link> <span className="italic opacity-60">(if Unknown Skies is enabled)</span></li>
+                    </ul>
+                </div>
+
+                <div className="flex flex-col gap-1">
+                    <div id="unknown-skies-planet-type-changes"><Link href="https://fractalsoftworks.com/forum/index.php?topic=29876.0" style={{ color: 'rgb(5, 250, 250)' }}>Unknown Skies</Link> Planet Type Changes</div>
+                    <ul className="list-disc list-inside pl-4">
+                        <li><Link href="/docs/terraforming/alpine-type-change" style={{ color: 'rgb(5, 250, 250)' }}>Alpine Type Change</Link></li>
+                        <li><Link href="/docs/terraforming/atoll-type-change" style={{ color: 'rgb(5, 250, 250)' }}>Atoll Type Change</Link></li>
+                        <li><Link href="/docs/terraforming/sakura-type-change" style={{ color: 'rgb(5, 250, 250)' }}>Sakura Type Change</Link></li>
+                        <li><Link href="/docs/terraforming/savannah-type-change" style={{ color: 'rgb(5, 250, 250)' }}>Savannah Type Change</Link></li>
+                        <li><Link href="/docs/terraforming/storm-type-change" style={{ color: 'rgb(5, 250, 250)' }}>Storm Type Change</Link></li>
                     </ul>
                 </div>
 
@@ -173,11 +179,11 @@ export default function Terraforming() {
                         <li><Link href="/docs/terraforming/increase-atmospheric-density" style={{ color: 'rgb(5, 250, 250)' }}>Increase Atmospheric Density</Link></li>
                         <li><Link href="/docs/terraforming/reduce-atmospheric-density" style={{ color: 'rgb(5, 250, 250)' }}>Reduce Atmospheric Density</Link></li>
                         <li><Link href="/docs/terraforming/reduce-atmospheric-toxicity" style={{ color: 'rgb(5, 250, 250)' }}>Reduce Atmospheric Toxicity</Link></li>
-                        <li><Link href="/docs/terraforming/remove-atmosphere" style={{ color: 'rgb(5, 250, 250)' }}>Remove Atmosphere</Link> <span className="italic opacity-60">(can be enabled via LunaLib settings)</span></li>
+                        <li><Link href="/docs/terraforming/remove-atmosphere" style={{ color: 'rgb(5, 250, 250)' }}>Remove Atmosphere</Link> <span className="italic opacity-60">(can be enabled via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></li>
                         <li><Link href="/docs/terraforming/make-atmosphere-habitable" style={{ color: 'rgb(5, 250, 250)' }}>Make Atmosphere Habitable</Link></li>
                         <li><Link href="/docs/terraforming/make-climate-mild" style={{ color: 'rgb(5, 250, 250)' }}>Make Climate Mild</Link></li>
                         <li><Link href="/docs/terraforming/stabilize-weather-patterns" style={{ color: 'rgb(5, 250, 250)' }}>Stabilize Weather Patterns</Link></li>
-                        <li><Link href="/docs/terraforming/remove-radiation" style={{ color: 'rgb(5, 250, 250)' }}>Remove Radiation</Link> <span className="italic opacity-60">(can be enabled via LunaLib settings)</span></li>
+                        <li><Link href="/docs/terraforming/remove-radiation" style={{ color: 'rgb(5, 250, 250)' }}>Remove Radiation</Link> <span className="italic opacity-60">(can be enabled via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></li>
                     </ul>
                 </div>
 
@@ -185,7 +191,7 @@ export default function Terraforming() {
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
                         <li>Stars, gas giants, and volcanic worlds cannot be terraformed.</li>
-                        <li>If the <Link href="https://fractalsoftworks.com/forum/index.php?topic=29161.0" style={{ color: 'rgb(5, 250, 250)' }}>Ashes of the Domain: Vaults of Knowledge</Link> mod is enabled, terraforming projects require research before they can be started.</li>
+                        <li>If the <Link href="https://fractalsoftworks.com/forum/index.php?topic=26307.0" style={{ color: 'rgb(5, 250, 250)' }}>Ashes of the Domain: Vaults of Knowledge</Link> mod is enabled, terraforming projects require research before they can be started.</li>
                     </ul>
                 </div>
             </section>

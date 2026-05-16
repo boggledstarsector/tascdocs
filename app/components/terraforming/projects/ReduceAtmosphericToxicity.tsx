@@ -12,13 +12,13 @@ export default function ReduceAtmosphericToxicity() {
                     </div>
                 </div>
                 <div className="md:max-w-[750px]">Removes the toxic atmosphere condition. Toxic atmosphere prevents most planet type changes and blocks the habitability and farmland improvement projects.</div>
-                <div>Duration: <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days <span className="italic opacity-60">(configurable via LunaLib settings)</span></div>
+                <div>Duration: <span style={{ color: 'rgb(255, 210, 0)' }}>200</span> days <span className="italic opacity-60">(configurable via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></div>
 
                 <div className="flex flex-col gap-1">
                     <div>Requirements:</div>
                     <ul className="list-disc list-inside pl-4">
                         <li>World type allows <Link href="/docs/terraforming" style={{ color: 'rgb(5, 250, 250)' }}>terraforming</Link></li>
-                        <li>Planet has the <Link href="https://starsector.wiki.gg/wiki/Toxic_Atmosphere" style={{ color: 'rgb(5, 250, 250)' }}>toxic atmosphere</Link> condition</li>
+                        <li>Planet has the <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>toxic atmosphere</Link> condition</li>
                         <li><Link href="/docs/atmosphere-processor" style={{ color: 'rgb(5, 250, 250)' }}>Atmosphere Processor</Link> is operational on the colony</li>
                     </ul>
                 </div>
@@ -26,7 +26,7 @@ export default function ReduceAtmosphericToxicity() {
                 <div className="flex flex-col gap-1">
                     <div>Results:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>Removes <Link href="https://starsector.wiki.gg/wiki/Toxic_Atmosphere" style={{ color: 'rgb(5, 250, 250)' }}>toxic atmosphere</Link></li>
+                        <li>Removes <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>toxic atmosphere</Link></li>
                     </ul>
                 </div>
             </section>

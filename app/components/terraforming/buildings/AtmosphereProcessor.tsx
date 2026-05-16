@@ -39,18 +39,18 @@ export default function AtmosphereProcessor() {
                     </ul>
                 </div>
                 <div className="flex flex-col gap-1">
-                    <div>AI core effects:</div>
+                    <div><Link href="https://starsector.wiki.gg/wiki/AI_core" style={{ color: 'rgb(5, 250, 250)' }}>AI core</Link> effects:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ export default function AtmosphereProcessor() {
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
                         <li>Can only be built on worlds with suboptimal atmospheric conditions (wrong atmospheric density or a toxic atmosphere).</li>
-                        <li>Cannot be built on stars, gas giants, volcanic worlds, or irradiated worlds (unless the remove radiation project is enabled in LunaLib settings).</li>
+                        <li>Cannot be built on stars, gas giants, volcanic worlds, or irradiated worlds (unless the remove radiation project is enabled in <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'rgb(5, 250, 250)' }}>LunaLib</Link> settings).</li>
                     </ul>
                 </div>
                 <div><Link href="https://starsector.wiki.gg/wiki/Colony#Luddic_Path_cells" style={{ color: 'rgb(5, 250, 250)' }}>Pather interest</Link>: <span style={{ color: 'rgb(255, 210, 0)' }}>2</span></div>
