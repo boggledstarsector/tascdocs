@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function IncreaseAtmosphericDensity() {
     return (
@@ -7,7 +7,7 @@ export default function IncreaseAtmosphericDensity() {
                 <h1 className="text-3xl font-bold">Increase Atmospheric Density</h1>
                 <div className="flex flex-row flex-wrap items-center gap-6">
                     <div className="flex flex-col items-center gap-1">
-                        <img src="/images/conditions/atmosphere_thin.png" alt="Thin atmosphere" className="h-10 w-10" />
+                        <img src="/images/conditions/atmosphere_thin.png" alt="Thin atmosphere" className="h-10 w-10 shrink-0" />
                         <div className="text-sm">Thin Atmosphere <span className="italic opacity-60">(removed)</span></div>
                     </div>
                 </div>

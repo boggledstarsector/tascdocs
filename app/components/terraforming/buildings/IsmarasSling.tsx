@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function IsmarasSling() {
     return (
@@ -15,16 +15,16 @@ export default function IsmarasSling() {
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">Surface-to-orbit mass drivers of titanic scale, originally reverse-engineered from the ancient Eridani-Utopia terraforming installations on Ismara. Each driver accelerates ice-laden projectiles to escape velocity, launching them on carefully calculated trajectories toward target worlds in need of additional water for terraforming.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>225,000¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>225,000Â¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>90</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>6,000¢</span></div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>6,000Â¢</span></div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">
                     <div>Demand:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/Heavy_Machinery">
-                                <img src="/images/commodities/heavymachinery.png" alt="Heavy Machinery" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/Heavy_Machinery" className="shrink-0">
+                                <img src="/images/commodities/heavymachinery.png" alt="Heavy Machinery" className="h-10 w-10 shrink-0" />
                             </Link>
                             <span>6</span>
                         </div>
@@ -42,15 +42,15 @@ export default function IsmarasSling() {
                     <div>AI core effects:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core" className="shrink-0"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10 shrink-0" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core" className="shrink-0"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10 shrink-0" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core" className="shrink-0"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10 shrink-0" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                     </div>

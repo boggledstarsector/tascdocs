@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function StabilizeWeatherPatterns() {
     return (
@@ -7,7 +7,7 @@ export default function StabilizeWeatherPatterns() {
                 <h1 className="text-3xl font-bold">Stabilize Weather Patterns</h1>
                 <div className="flex flex-row flex-wrap items-center gap-6">
                     <div className="flex flex-col items-center gap-1">
-                        <img src="/images/conditions/weather_extreme.png" alt="Extreme weather" className="h-10 w-10" />
+                        <img src="/images/conditions/weather_extreme.png" alt="Extreme weather" className="h-10 w-10 shrink-0" />
                         <div className="text-sm">Extreme Weather <span className="italic opacity-60">(removed)</span></div>
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function AIMiningDrones() {
     return (
@@ -15,28 +15,28 @@ export default function AIMiningDrones() {
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">Mining activities are more productive when human laborers are replaced by droneships controlled via an <Link href="https://starsector.wiki.gg/wiki/AI_core" style={{ color: 'inherit' }}>AI core</Link>.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span> <span className="italic opacity-60">(use <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings to enable)</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>225,000¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>225,000Â¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>60</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>2,000¢</span> * (colony size - 2)</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>2,000Â¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">
                     <div>Demand:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/Fuel">
-                                <img src="/images/commodities/fuel.png" alt="Fuel" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/Fuel" className="shrink-0">
+                                <img src="/images/commodities/fuel.png" alt="Fuel" className="h-10 w-10 shrink-0" />
                             </Link>
                             <span>colony size</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/Supplies">
-                                <img src="/images/commodities/supplies.png" alt="Supplies" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/Supplies" className="shrink-0">
+                                <img src="/images/commodities/supplies.png" alt="Supplies" className="h-10 w-10 shrink-0" />
                             </Link>
                             <span>colony size</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/Ships_(commodity)">
-                                <img src="/images/commodities/ships.png" alt="Ships" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/Ships_(commodity)" className="shrink-0">
+                                <img src="/images/commodities/ships.png" alt="Ships" className="h-10 w-10 shrink-0" />
                             </Link>
                             <span>colony size</span>
                         </div>
@@ -54,15 +54,15 @@ export default function AIMiningDrones() {
                     <div>AI core effects:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core" className="shrink-0"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10 shrink-0" /></Link>
                             <span>Increases Mining production by <span style={{ color: 'rgb(255, 210, 0)' }}>3</span> units.</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core" className="shrink-0"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10 shrink-0" /></Link>
                             <span>Increases Mining production by <span style={{ color: 'rgb(255, 210, 0)' }}>2</span> units.</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core" className="shrink-0"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10 shrink-0" /></Link>
                             <span>Increases Mining production by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span> unit.</span>
                         </div>
                     </div>

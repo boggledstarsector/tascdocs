@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function SiphonStation() {
     return (
@@ -7,12 +7,12 @@ export default function SiphonStation() {
                 <h1 className="text-3xl font-bold">Siphon Station</h1>
                 <div className="md:max-w-[750px]"><span className="italic">An orbital station that can pull volatiles into space by manipulating the magnetosphere of a nearby gas giant. The amount of volatiles the station can harvest is proportional to how abundant they are on the gas giant itself.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
-                <div className="flex items-center gap-2">Ability icon: <img src="/images/abilities/construct_siphon_station.png" alt="Siphon Station Ability" className="h-10 w-10" /></div>
-                <div className="flex flex-wrap items-center gap-2">Construction cost: <span style={{ color: 'rgb(255, 210, 0)' }}>500,000¢</span>,
-                    <Link href="https://starsector.wiki.gg/wiki/Crew"><img src="/images/commodities/crew.png" alt="Crew" className="h-10 w-10" /></Link> <span style={{ color: 'rgb(255, 210, 0)' }}>1000</span>,
-                    <Link href="https://starsector.wiki.gg/wiki/Heavy_Machinery"><img src="/images/commodities/heavymachinery.png" alt="Heavy machinery" className="h-10 w-10" /></Link> <span style={{ color: 'rgb(255, 210, 0)' }}>250</span>,
-                    <Link href="https://starsector.wiki.gg/wiki/Metals"><img src="/images/commodities/metals.png" alt="Metals" className="h-10 w-10" /></Link> <span style={{ color: 'rgb(255, 210, 0)' }}>1000</span>,
-                    <Link href="https://starsector.wiki.gg/wiki/Transplutonics"><img src="/images/commodities/raremetals.png" alt="Transplutonics" className="h-10 w-10" /></Link> <span style={{ color: 'rgb(255, 210, 0)' }}>250</span>
+                <div className="flex items-center gap-2">Ability icon: <img src="/images/abilities/construct_siphon_station.png" alt="Siphon Station Ability" className="h-10 w-10 shrink-0" /></div>
+                <div className="flex flex-wrap items-center gap-2">Construction cost: <span style={{ color: 'rgb(255, 210, 0)' }}>500,000Â¢</span>,
+                    <Link href="https://starsector.wiki.gg/wiki/Crew" className="shrink-0"><img src="/images/commodities/crew.png" alt="Crew" className="h-10 w-10 shrink-0" /></Link> <span style={{ color: 'rgb(255, 210, 0)' }}>1000</span>,
+                    <Link href="https://starsector.wiki.gg/wiki/Heavy_Machinery" className="shrink-0"><img src="/images/commodities/heavymachinery.png" alt="Heavy machinery" className="h-10 w-10 shrink-0" /></Link> <span style={{ color: 'rgb(255, 210, 0)' }}>250</span>,
+                    <Link href="https://starsector.wiki.gg/wiki/Metals" className="shrink-0"><img src="/images/commodities/metals.png" alt="Metals" className="h-10 w-10 shrink-0" /></Link> <span style={{ color: 'rgb(255, 210, 0)' }}>1000</span>,
+                    <Link href="https://starsector.wiki.gg/wiki/Transplutonics" className="shrink-0"><img src="/images/commodities/raremetals.png" alt="Transplutonics" className="h-10 w-10 shrink-0" /></Link> <span style={{ color: 'rgb(255, 210, 0)' }}>250</span>
                 </div>
                 <div className="flex flex-col gap-1">
                     <div>Notes:</div>

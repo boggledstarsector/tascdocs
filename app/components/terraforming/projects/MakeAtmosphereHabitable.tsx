@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function MakeAtmosphereHabitable() {
     return (
@@ -7,7 +7,7 @@ export default function MakeAtmosphereHabitable() {
                 <h1 className="text-3xl font-bold">Make Atmosphere Habitable</h1>
                 <div className="flex flex-row flex-wrap items-center gap-6">
                     <div className="flex flex-col items-center gap-1">
-                        <img src="/images/conditions/habitable.png" alt="Habitable" className="h-10 w-10" />
+                        <img src="/images/conditions/habitable.png" alt="Habitable" className="h-10 w-10 shrink-0" />
                         <div className="text-sm">Habitable <span className="italic opacity-60">(added)</span></div>
                     </div>
                 </div>

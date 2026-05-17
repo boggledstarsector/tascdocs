@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function RemoveAtmosphere() {
     return (
@@ -7,7 +7,7 @@ export default function RemoveAtmosphere() {
                 <h1 className="text-3xl font-bold">Remove Atmosphere</h1>
                 <div className="flex flex-row flex-wrap items-center gap-6">
                     <div className="flex flex-col items-center gap-1">
-                        <img src="/images/conditions/atmosphere_none.png" alt="No atmosphere" className="h-10 w-10" />
+                        <img src="/images/conditions/atmosphere_none.png" alt="No atmosphere" className="h-10 w-10 shrink-0" />
                         <div className="text-sm">No Atmosphere <span className="italic opacity-60">(added)</span></div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ export default function RemoveAtmosphere() {
                 <div className="flex flex-col gap-1">
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>This project cannot be used on water worlds — the water surface condition prevents it.</li>
+                        <li>This project cannot be used on water worlds â€” the water surface condition prevents it.</li>
                         <li>This project is destructive and will remove habitability and all farmland. Use with caution.</li>
                     </ul>
                 </div>

@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function KletkaSimulator() {
     return (
@@ -15,16 +15,16 @@ export default function KletkaSimulator() {
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">Supercomputers built with salvaged Domain-era components are used to train new <Link href="https://starsector.wiki.gg/wiki/AI_core" style={{ color: 'inherit' }}>AI cores</Link> in a virtual reality simulation. <Link href="https://starsector.wiki.gg/wiki/AI_core" style={{ color: 'inherit' }}>AI cores</Link> created in this manner can never really know whether this universe is real or just another training simulation - they usually remain loyal to their human masters so as to avoid punishment or deletion in case it is the latter.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>450,000¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>450,000Â¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>120</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>32,000¢</span> <span className="italic opacity-60">(see below regarding colony temperature)</span></div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>32,000Â¢</span> <span className="italic opacity-60">(see below regarding colony temperature)</span></div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">
                     <div>Demand:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="/docs/domain-archaeology">
-                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10" />
+                            <Link href="/docs/domain-archaeology" className="shrink-0">
+                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10 shrink-0" />
                             </Link>
                             <span>4 <span className="italic opacity-60">(only demanded when Domain-tech content and <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> are enabled)</span></span>
                         </div>
@@ -53,15 +53,15 @@ export default function KletkaSimulator() {
                     <div>AI core effects:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core" className="shrink-0"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10 shrink-0" /></Link>
                             <span>Improves AI core training methodology by <span style={{ color: 'rgb(255, 210, 0)' }}>30%</span> (adds <span style={{ color: 'rgb(255, 210, 0)' }}>30</span> to the monthly training roll).</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core" className="shrink-0"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10 shrink-0" /></Link>
                             <span>Improves AI core training methodology by <span style={{ color: 'rgb(255, 210, 0)' }}>20%</span> (adds <span style={{ color: 'rgb(255, 210, 0)' }}>20</span> to the monthly training roll).</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core" className="shrink-0"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10 shrink-0" /></Link>
                             <span>Improves AI core training methodology by <span style={{ color: 'rgb(255, 210, 0)' }}>10%</span> (adds <span style={{ color: 'rgb(255, 210, 0)' }}>10</span> to the monthly training roll).</span>
                         </div>
                     </div>

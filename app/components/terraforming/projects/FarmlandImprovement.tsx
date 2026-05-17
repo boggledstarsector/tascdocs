@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function FarmlandImprovement() {
     return (
@@ -7,19 +7,19 @@ export default function FarmlandImprovement() {
                 <h1 className="text-3xl font-bold">Farmland Improvement</h1>
                 <div className="flex flex-row flex-wrap items-center gap-6">
                     <div className="flex flex-col items-center gap-1">
-                        <img src="/images/resources/farmland_poor.png" alt="Poor farmland" className="h-10 w-10" />
+                        <img src="/images/resources/farmland_poor.png" alt="Poor farmland" className="h-10 w-10 shrink-0" />
                         <div className="text-sm">Poor</div>
                     </div>
                     <div className="flex flex-col items-center gap-1">
-                        <img src="/images/resources/farmland_adequate.png" alt="Adequate farmland" className="h-10 w-10" />
+                        <img src="/images/resources/farmland_adequate.png" alt="Adequate farmland" className="h-10 w-10 shrink-0" />
                         <div className="text-sm">Adequate</div>
                     </div>
                     <div className="flex flex-col items-center gap-1">
-                        <img src="/images/resources/farmland_rich.png" alt="Rich farmland" className="h-10 w-10" />
+                        <img src="/images/resources/farmland_rich.png" alt="Rich farmland" className="h-10 w-10 shrink-0" />
                         <div className="text-sm">Rich</div>
                     </div>
                     <div className="flex flex-col items-center gap-1">
-                        <img src="/images/resources/farmland_bountiful.png" alt="Bountiful farmland" className="h-10 w-10" />
+                        <img src="/images/resources/farmland_bountiful.png" alt="Bountiful farmland" className="h-10 w-10 shrink-0" />
                         <div className="text-sm">Bountiful</div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ export default function FarmlandImprovement() {
                 <div className="flex flex-col gap-1">
                     <div>Progression:</div>
                     <div className="pl-4">
-                        <span className="italic opacity-60">(none)</span> → <span style={{ color: 'rgb(255, 210, 0)' }}>Poor</span> → <span style={{ color: 'rgb(255, 210, 0)' }}>Adequate</span> → <span style={{ color: 'rgb(255, 210, 0)' }}>Rich</span> → <span style={{ color: 'rgb(255, 210, 0)' }}>Bountiful</span>
+                        <span className="italic opacity-60">(none)</span> â†’ <span style={{ color: 'rgb(255, 210, 0)' }}>Poor</span> â†’ <span style={{ color: 'rgb(255, 210, 0)' }}>Adequate</span> â†’ <span style={{ color: 'rgb(255, 210, 0)' }}>Rich</span> â†’ <span style={{ color: 'rgb(255, 210, 0)' }}>Bountiful</span>
                     </div>
                     <div className="md:max-w-[750px]">Each run of this project advances farmland by one tier. All planet types that support farmland can reach the maximum level of bountiful.</div>
                 </div>

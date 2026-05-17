@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function PerihelionProject() {
     return (
@@ -15,34 +15,34 @@ export default function PerihelionProject() {
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">Construct a coronal tap. Building a megastructure of this size and complexity requires a staggering amount of raw materials - far beyond what any of the major factions can muster.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings to enable)</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000,000¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000,000Â¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>180</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>96,000¢</span></div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>96,000Â¢</span></div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">
                     <div>Demand:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/Metals">
-                                <img src="/images/commodities/metals.png" alt="Metals" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/Metals" className="shrink-0">
+                                <img src="/images/commodities/metals.png" alt="Metals" className="h-10 w-10 shrink-0" />
                             </Link>
                             <span>11</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/Transplutonics">
-                                <img src="/images/commodities/raremetals.png" alt="Transplutonics" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/Transplutonics" className="shrink-0">
+                                <img src="/images/commodities/raremetals.png" alt="Transplutonics" className="h-10 w-10 shrink-0" />
                             </Link>
                             <span>9</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/Heavy_Machinery">
-                                <img src="/images/commodities/heavymachinery.png" alt="Heavy machinery" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/Heavy_Machinery" className="shrink-0">
+                                <img src="/images/commodities/heavymachinery.png" alt="Heavy machinery" className="h-10 w-10 shrink-0" />
                             </Link>
                             <span>7</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="/docs/domain-archaeology">
-                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10" />
+                            <Link href="/docs/domain-archaeology" className="shrink-0">
+                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10 shrink-0" />
                             </Link>
                             <span>7 <span className="italic opacity-60">(only demanded when Domain-tech content and <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> are enabled)</span></span>
                         </div>
@@ -64,15 +64,15 @@ export default function PerihelionProject() {
                     <div><Link href="https://starsector.wiki.gg/wiki/AI_core" style={{ color: 'rgb(5, 250, 250)' }}>AI core</Link> effects:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core" className="shrink-0"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10 shrink-0" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core" className="shrink-0"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10 shrink-0" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core" className="shrink-0"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10 shrink-0" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                     </div>

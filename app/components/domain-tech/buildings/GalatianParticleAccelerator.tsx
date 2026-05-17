@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function GalatianParticleAccelerator() {
     return (
@@ -16,16 +16,16 @@ export default function GalatianParticleAccelerator() {
                 <div className="md:max-w-[750px]"><span className="italic">This particle accelerator is used by the Galatian Academy to conduct physics research. Tri-Tachyon operated a more advanced accelerator on Crom Cruach until it was destroyed during the post-Collapse civil war.</span></div>
                 <div style={{ color: 'rgb(200, 10, 20)' }}>Cannot be constructed by the player. This structure only exists as a pre-built fixture on Ancyra.</div>
                 <div>Enabled by default: N/A</div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>900,000¢</span> <span className="italic opacity-60">(never paid — cannot be built)</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>900,000Â¢</span> <span className="italic opacity-60">(never paid â€” cannot be built)</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>360</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>6,000¢</span> * (colony size - 2)</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>6,000Â¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">
                     <div>Demand:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="/docs/domain-archaeology">
-                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10" />
+                            <Link href="/docs/domain-archaeology" className="shrink-0">
+                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10 shrink-0" />
                             </Link>
                             <span>3 <span className="italic opacity-60">(only demanded when Domain-tech content and <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> are enabled)</span></span>
                         </div>
@@ -38,15 +38,15 @@ export default function GalatianParticleAccelerator() {
                     <div><Link href="https://starsector.wiki.gg/wiki/AI_core" style={{ color: 'rgb(5, 250, 250)' }}>AI core</Link> effects:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core" className="shrink-0"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10 shrink-0" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core" className="shrink-0"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10 shrink-0" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core" className="shrink-0"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10 shrink-0" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                     </div>

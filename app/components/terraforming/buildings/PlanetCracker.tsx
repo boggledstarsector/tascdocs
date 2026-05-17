@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function PlanetCracker() {
     return (
@@ -13,11 +13,11 @@ export default function PlanetCracker() {
                         style={{ borderColor: 'rgb(5, 250, 250)' }}
                     />
                 </div>
-                <div className="md:max-w-[750px]"><span className="italic">Hypervelocity kinetic bombardment platforms, originally designed as weapons of mass destruction during the Domain&apos;s most violent insurgencies. Each &apos;cracker&apos; accelerates a tungsten rod to relativistic speeds on an impact trajectory calculated to maximize tectonic disruption. The result: localized earthquakes, volcanic activation, and upwelling of mineral-rich mantle material that can be mined once the dust settles. The technique is crude, environmentally catastrophic, and brutally effective—exactly the sort of solution that appeals to desperate colonies or unscrupulous mining conglomerates.</span></div>
+                <div className="md:max-w-[750px]"><span className="italic">Hypervelocity kinetic bombardment platforms, originally designed as weapons of mass destruction during the Domain&apos;s most violent insurgencies. Each &apos;cracker&apos; accelerates a tungsten rod to relativistic speeds on an impact trajectory calculated to maximize tectonic disruption. The result: localized earthquakes, volcanic activation, and upwelling of mineral-rich mantle material that can be mined once the dust settles. The technique is crude, environmentally catastrophic, and brutally effectiveâ€”exactly the sort of solution that appeals to desperate colonies or unscrupulous mining conglomerates.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings to enable)</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>75,000¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>75,000Â¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>30</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>500¢</span> * (colony size - 2)</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>500Â¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div>Demand: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">
@@ -35,15 +35,15 @@ export default function PlanetCracker() {
                     <div><Link href="https://starsector.wiki.gg/wiki/AI_core" style={{ color: 'rgb(5, 250, 250)' }}>AI core</Link> effects:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core" className="shrink-0"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10 shrink-0" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core" className="shrink-0"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10 shrink-0" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core" className="shrink-0"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10 shrink-0" /></Link>
                             <span className="italic opacity-60">(cannot install)</span>
                         </div>
                     </div>

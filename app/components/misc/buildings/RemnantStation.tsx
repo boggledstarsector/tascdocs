@@ -23,14 +23,14 @@ export default function RemnantStation() {
                     <div>Demand:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/Supplies">
-                                <img src="/images/commodities/supplies.png" alt="Supplies" className="h-10 w-10" />
+                            <Link href="https://starsector.wiki.gg/wiki/Supplies" className="shrink-0">
+                                <img src="/images/commodities/supplies.png" alt="Supplies" className="h-10 w-10 shrink-0" />
                             </Link>
                             <span>7</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="/docs/domain-archaeology">
-                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10" />
+                            <Link href="/docs/domain-archaeology" className="shrink-0">
+                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10 shrink-0" />
                             </Link>
                             <span>4 <span className="italic opacity-60">(only demanded when Domain-tech content and <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> are enabled)</span></span>
                         </div>
@@ -52,15 +52,15 @@ export default function RemnantStation() {
                     <div><Link href="https://starsector.wiki.gg/wiki/AI_core" style={{ color: 'rgb(5, 250, 250)' }}>AI core</Link> effects:</div>
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core" className="shrink-0"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10 shrink-0" /></Link>
                             <span>Installs an alpha core as the station commander.</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core" className="shrink-0"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10 shrink-0" /></Link>
                             <span>Installs a beta core as the station commander.</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10" /></Link>
+                            <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core" className="shrink-0"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10 shrink-0" /></Link>
                             <span>Installs a gamma core as the station commander.</span>
                         </div>
                     </div>
@@ -70,6 +70,7 @@ export default function RemnantStation() {
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
                         <li>The player must have the <Link href="https://starsector.wiki.gg/wiki/Skills#Automated_Ships" style={{ color: 'rgb(5, 250, 250)' }}>Automated Ships</Link> skill to construct this building.</li>
+                        <li>If the <Link href="https://fractalsoftworks.com/forum/index.php?topic=30407.0" style={{ color: 'rgb(5, 250, 250)' }}>Second in Command</Link> mod is enabled, the player must have an executive officer with the automation aptitude instead.</li>
                     </ul>
                 </div>
                 <div><Link href="https://starsector.wiki.gg/wiki/Colony#Luddic_Path_cells" style={{ color: 'rgb(5, 250, 250)' }}>Pather interest</Link>: <span style={{ color: 'rgb(255, 210, 0)' }}>10</span></div>
