@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 export default function PlanetaryAgravField() {
     return (
@@ -15,9 +15,9 @@ export default function PlanetaryAgravField() {
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">The agrav field generators used on starships work on the surface of planets - the problem is building a large enough network of generators to envelop the entire colony. This is only economically feasible when the bulk of the populace is housed within the confines of a few domed cities.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings to enable)</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>300,000Â¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>300,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>60</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>2,000Â¢</span> * (colony size - 2)</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>2,000¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div>Demand: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">

@@ -44,7 +44,7 @@ export default function FarmlandImprovement() {
                 <div className="flex flex-col gap-1">
                     <div>Progression:</div>
                     <div className="pl-4">
-                        <span className="italic opacity-60">(none)</span> â†’ <span style={{ color: 'rgb(255, 210, 0)' }}>Poor</span> â†’ <span style={{ color: 'rgb(255, 210, 0)' }}>Adequate</span> â†’ <span style={{ color: 'rgb(255, 210, 0)' }}>Rich</span> â†’ <span style={{ color: 'rgb(255, 210, 0)' }}>Bountiful</span>
+                        <span className="italic opacity-60">(none)</span> → <span style={{ color: 'rgb(255, 210, 0)' }}>Poor</span> → <span style={{ color: 'rgb(255, 210, 0)' }}>Adequate</span> → <span style={{ color: 'rgb(255, 210, 0)' }}>Rich</span> → <span style={{ color: 'rgb(255, 210, 0)' }}>Bountiful</span>
                     </div>
                     <div className="md:max-w-[750px]">Each run of this project advances farmland by one tier. All planet types that support farmland can reach the maximum level of bountiful.</div>
                 </div>

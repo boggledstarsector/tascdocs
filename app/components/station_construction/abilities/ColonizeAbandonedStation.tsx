@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 export default function ColonizeAbandonedStation() {
     return (
@@ -8,7 +8,7 @@ export default function ColonizeAbandonedStation() {
                 <div className="md:max-w-[750px]"><span className="italic">Colonize an abandoned station.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
                 <div className="flex items-center gap-2">Ability icon: <img src="/images/abilities/colonize_abandoned_station.png" alt="Colonize Abandoned Station Ability" className="h-10 w-10 shrink-0" /></div>
-                <div className="flex flex-wrap items-center gap-2">Recolonization cost: <span style={{ color: 'rgb(255, 210, 0)' }}>250,000Â¢</span>,
+                <div className="flex flex-wrap items-center gap-2">Recolonization cost: <span style={{ color: 'rgb(255, 210, 0)' }}>250,000¢</span>,
                     <Link href="https://starsector.wiki.gg/wiki/Crew" className="shrink-0"><img src="/images/commodities/crew.png" alt="Crew" className="h-10 w-10 shrink-0" /></Link> <span style={{ color: 'rgb(255, 210, 0)' }}>500</span>,
                     <Link href="https://starsector.wiki.gg/wiki/Heavy_Machinery" className="shrink-0"><img src="/images/commodities/heavymachinery.png" alt="Heavy machinery" className="h-10 w-10 shrink-0" /></Link> <span style={{ color: 'rgb(255, 210, 0)' }}>125</span>,
                     <Link href="https://starsector.wiki.gg/wiki/Metals" className="shrink-0"><img src="/images/commodities/metals.png" alt="Metals" className="h-10 w-10 shrink-0" /></Link> <span style={{ color: 'rgb(255, 210, 0)' }}>500</span>,

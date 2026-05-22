@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 export default function AtmosphereProcessor() {
     return (
@@ -15,9 +15,9 @@ export default function AtmosphereProcessor() {
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">A network of towering constructs that permanently change the composition of the atmosphere over time. Necessary for terraforming planets with suboptimal atmospheric pressure and/or toxicity.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>300,000Â¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>300,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>90</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>6,000Â¢</span></div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>6,000¢</span></div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">
                     <div>Demand:</div>

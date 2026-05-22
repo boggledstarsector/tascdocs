@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 export default function Chameleon() {
     return (
@@ -15,9 +15,9 @@ export default function Chameleon() {
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">The CHAMELEON is a supercomputer composed of specialized Domain-era hardware capable of breaking most forms of encryption used in the Sector. Security forces can leverage the intelligence gleaned using this construct to eradicate <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'inherit' }}>decivilized subpopulations</Link> and <Link href="https://starsector.wiki.gg/wiki/Market_condition#Other" style={{ color: 'inherit' }}>rogue AI cores</Link>.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>225,000Â¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>225,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>60</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>2,000Â¢</span> * (colony size - 2)</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>2,000¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">
                     <div>Demand:</div>

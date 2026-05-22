@@ -35,7 +35,7 @@ export default function RemoveAtmosphere() {
                 <div className="flex flex-col gap-1">
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>This project cannot be used on water worlds â€” the water surface condition prevents it.</li>
+                        <li>This project cannot be used on water worlds — the water surface condition prevents it.</li>
                         <li>This project is destructive and will remove habitability and all farmland. Use with caution.</li>
                     </ul>
                 </div>

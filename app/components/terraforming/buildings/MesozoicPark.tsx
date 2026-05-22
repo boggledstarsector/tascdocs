@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 export default function MesozoicPark() {
     return (
@@ -45,9 +45,9 @@ export default function MesozoicPark() {
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">Humans have long been fascinated by extinct Old Earth megafauna. Although no DNA from these creatures has survived to the present day, synthetic organisms engineered to approximate them can be created using genetic engineering. Wealthy tourists and trophy hunters are drawn to worlds where these &quot;terrible lizards&quot; roam the wilds, provided the colony is easily accessible and stable enough for visitors to feel safe.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>225,000Â¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>225,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>90</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000Â¢</span> * (colony size - 2)</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div>Demand: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">

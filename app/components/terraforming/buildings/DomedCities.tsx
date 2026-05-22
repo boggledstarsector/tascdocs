@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 export default function DomedCities() {
     return (
@@ -15,9 +15,9 @@ export default function DomedCities() {
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">Hermetically sealed domes dozens of kilometers across can enclose the bulk of a colony's population in a relatively Earth-like environment. Hazardous conditions imposed by atmospheric properties, <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'inherit' }}>extreme weather</Link> and dangerous fauna are mitigated inside the domes. Concentrating industrial and population centers under fragile domes makes the colony almost defenseless against raiding and bombardment.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>300,000Â¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>300,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>60</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000Â¢</span> * (colony size - 2)</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div>Demand: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">

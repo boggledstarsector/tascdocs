@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 export default function SeafloorCities() {
     return (
@@ -15,9 +15,9 @@ export default function SeafloorCities() {
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">Enclosed megastructures resting on the abyssal plains, these undersea cities withstand crushing pressure and eternal darkness with reinforced hulls and advanced life-support systems. The isolation of these colonies makes them difficult to reach, providing security from external threats but hampering trade.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>300,000Â¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>300,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>60</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000Â¢</span> * (colony size - 2)</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div>Demand: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">

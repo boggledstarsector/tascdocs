@@ -29,13 +29,13 @@ export default function StableLocationStructures() {
                     <div>Structure types:</div>
                     <ul className="list-disc list-inside pl-4">
                         <li>
-                            <span style={{ color: 'rgb(5, 250, 250)' }}>Domain-tech Comm Relay</span> â€” <span style={{ color: 'rgb(255, 210, 0)' }}>+5</span> <Link href="https://starsector.wiki.gg/wiki/Colony#Stability" style={{ color: 'rgb(5, 250, 250)' }}>stability</Link> for same-faction colonies in system
+                            <span style={{ color: 'rgb(5, 250, 250)' }}>Domain-tech Comm Relay</span> — <span style={{ color: 'rgb(255, 210, 0)' }}>+5</span> <Link href="https://starsector.wiki.gg/wiki/Colony#Stability" style={{ color: 'rgb(5, 250, 250)' }}>stability</Link> for same-faction colonies in system
                         </li>
                         <li>
-                            <span style={{ color: 'rgb(5, 250, 250)' }}>Domain-tech Sensor Array</span> â€” <span style={{ color: 'rgb(255, 210, 0)' }}>+700</span> sensor range for all same-faction fleets in system
+                            <span style={{ color: 'rgb(5, 250, 250)' }}>Domain-tech Sensor Array</span> — <span style={{ color: 'rgb(255, 210, 0)' }}>+700</span> sensor range for all same-faction fleets in system
                         </li>
                         <li>
-                            <span style={{ color: 'rgb(5, 250, 250)' }}>Domain-tech Nav Buoy</span> â€” <span style={{ color: 'rgb(255, 210, 0)' }}>+3</span> <Link href="https://starsector.wiki.gg/wiki/Burn_speed" style={{ color: 'rgb(5, 250, 250)' }}>burn level</Link> for all same-faction fleets in system
+                            <span style={{ color: 'rgb(5, 250, 250)' }}>Domain-tech Nav Buoy</span> — <span style={{ color: 'rgb(255, 210, 0)' }}>+3</span> <Link href="https://starsector.wiki.gg/wiki/Burn_speed" style={{ color: 'rgb(5, 250, 250)' }}>burn level</Link> for all same-faction fleets in system
                         </li>
                     </ul>
                 </div>

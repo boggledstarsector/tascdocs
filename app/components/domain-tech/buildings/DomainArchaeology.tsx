@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 export default function DomainArchaeology() {
     return (
@@ -15,9 +15,9 @@ export default function DomainArchaeology() {
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">The Collapse plunged the Sector into a dark age. Left without the means to replicate the most advanced Domain-era technology, inhabitants of the Sector have been reduced to excavating it from the ruins of Domain colonies.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>150,000Â¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>150,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>45</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000Â¢</span> * (colony size - 2)</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000¢</span> * (colony size - 2)</div>
                 <div className="flex flex-col gap-1">
                     <div>Supply:</div>
                     <div className="flex flex-col gap-2 pl-4">

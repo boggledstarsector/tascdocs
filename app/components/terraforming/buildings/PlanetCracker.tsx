@@ -13,11 +13,11 @@ export default function PlanetCracker() {
                         style={{ borderColor: 'rgb(5, 250, 250)' }}
                     />
                 </div>
-                <div className="md:max-w-[750px]"><span className="italic">Hypervelocity kinetic bombardment platforms, originally designed as weapons of mass destruction during the Domain&apos;s most violent insurgencies. Each &apos;cracker&apos; accelerates a tungsten rod to relativistic speeds on an impact trajectory calculated to maximize tectonic disruption. The result: localized earthquakes, volcanic activation, and upwelling of mineral-rich mantle material that can be mined once the dust settles. The technique is crude, environmentally catastrophic, and brutally effectiveâ€”exactly the sort of solution that appeals to desperate colonies or unscrupulous mining conglomerates.</span></div>
+                <div className="md:max-w-[750px]"><span className="italic">Hypervelocity kinetic bombardment platforms, originally designed as weapons of mass destruction during the Domain&apos;s most violent insurgencies. Each &apos;cracker&apos; accelerates a tungsten rod to relativistic speeds on an impact trajectory calculated to maximize tectonic disruption. The result: localized earthquakes, volcanic activation, and upwelling of mineral-rich mantle material that can be mined once the dust settles. The technique is crude, environmentally catastrophic, and brutally effective—exactly the sort of solution that appeals to desperate colonies or unscrupulous mining conglomerates.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings to enable)</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>75,000Â¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>75,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>30</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>500Â¢</span> * (colony size - 2)</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>500¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div>Demand: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">

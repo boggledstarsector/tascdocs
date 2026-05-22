@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 export default function AIMiningDrones() {
     return (
@@ -15,9 +15,9 @@ export default function AIMiningDrones() {
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">Mining activities are more productive when human laborers are replaced by droneships controlled via an <Link href="https://starsector.wiki.gg/wiki/AI_core" style={{ color: 'inherit' }}>AI core</Link>.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span> <span className="italic opacity-60">(use <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings to enable)</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>225,000Â¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>225,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>60</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>2,000Â¢</span> * (colony size - 2)</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>2,000¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">
                     <div>Demand:</div>

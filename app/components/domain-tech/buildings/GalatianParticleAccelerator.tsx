@@ -16,9 +16,9 @@ export default function GalatianParticleAccelerator() {
                 <div className="md:max-w-[750px]"><span className="italic">This particle accelerator is used by the Galatian Academy to conduct physics research. Tri-Tachyon operated a more advanced accelerator on Crom Cruach until it was destroyed during the post-Collapse civil war.</span></div>
                 <div style={{ color: 'rgb(200, 10, 20)' }}>Cannot be constructed by the player. This structure only exists as a pre-built fixture on Ancyra.</div>
                 <div>Enabled by default: N/A</div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>900,000Â¢</span> <span className="italic opacity-60">(never paid â€” cannot be built)</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>900,000¢</span> <span className="italic opacity-60">(never paid — cannot be built)</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>360</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>6,000Â¢</span> * (colony size - 2)</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>6,000¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">
                     <div>Demand:</div>

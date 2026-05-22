@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 export default function Cloning() {
     return (
@@ -15,9 +15,9 @@ export default function Cloning() {
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">Clones are grown in vats, their developing minds connected to a virtual reality simulation via brain-machine interface. Those that are productive and compliant in the simulation are released into general society. The rest are used for organ harvesting.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings to enable)</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>600,000Â¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>600,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>120</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>6,000Â¢</span> * (colony size - 2)</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>6,000¢</span> * (colony size - 2)</div>
                 <div className="flex flex-col gap-1">
                     <div>Supply:</div>
                     <div className="flex flex-col gap-2 pl-4">

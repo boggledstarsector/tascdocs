@@ -10,7 +10,7 @@ export default function AddAtmosphere() {
                         <img src="/images/conditions/atmosphere_none.png" alt="No atmosphere" className="h-10 w-10 shrink-0" />
                         <div className="text-sm">No Atmosphere</div>
                     </div>
-                    <div className="text-xl">â†’</div>
+                    <div className="text-xl">→</div>
                     <div className="flex flex-col items-center gap-1">
                         <img src="/images/conditions/atmosphere_thin.png" alt="Thin atmosphere" className="h-10 w-10 shrink-0" />
                         <div className="text-sm">Thin Atmosphere</div>

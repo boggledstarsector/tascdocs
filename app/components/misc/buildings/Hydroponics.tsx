@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 export default function Hydroponics() {
     return (
@@ -15,9 +15,9 @@ export default function Hydroponics() {
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">Without soil or natural light, life finds a way. These hydroponic bays represent centuries of agricultural refinement dating back to the first generation ships and O'Neill cylinders of Old Earth's diaspora. Nutrient-rich water circulates through racks of genetically modified crops optimized for minimal space and maximum caloric output, their grow-lights cycling in rhythms that mimic forgotten seasons.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings to enable)</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>250,000Â¢</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>250,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>60</span> days</div>
-                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,500Â¢</span> * (colony size - 2)</div>
+                <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,500¢</span> * (colony size - 2)</div>
                 <div className="flex flex-col gap-1">
                     <div>Supply:</div>
                     <div className="flex flex-col gap-2 pl-4">
