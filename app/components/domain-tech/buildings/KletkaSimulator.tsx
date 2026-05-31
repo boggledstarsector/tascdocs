@@ -54,15 +54,15 @@ export default function KletkaSimulator() {
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
                             <Link href="https://starsector.wiki.gg/wiki/AI_core#Alpha_core" className="shrink-0"><img src="/images/commodities/ai_core_alpha.png" alt="AI Core Alpha" className="h-10 w-10 shrink-0" /></Link>
-                            <span>Improves AI core training methodology by <span style={{ color: 'rgb(255, 210, 0)' }}>30%</span> (adds <span style={{ color: 'rgb(255, 210, 0)' }}>30</span> to the monthly training roll).</span>
+                            <span>Improves AI core training methodology by <span style={{ color: 'rgb(255, 210, 0)' }}>15%</span> (adds <span style={{ color: 'rgb(255, 210, 0)' }}>15</span> to the monthly training roll).</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <Link href="https://starsector.wiki.gg/wiki/AI_core#Beta_core" className="shrink-0"><img src="/images/commodities/ai_core_beta.png" alt="AI Core Beta" className="h-10 w-10 shrink-0" /></Link>
-                            <span>Improves AI core training methodology by <span style={{ color: 'rgb(255, 210, 0)' }}>20%</span> (adds <span style={{ color: 'rgb(255, 210, 0)' }}>20</span> to the monthly training roll).</span>
+                            <span>Improves AI core training methodology by <span style={{ color: 'rgb(255, 210, 0)' }}>10%</span> (adds <span style={{ color: 'rgb(255, 210, 0)' }}>10</span> to the monthly training roll).</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <Link href="https://starsector.wiki.gg/wiki/AI_core#Gamma_core" className="shrink-0"><img src="/images/commodities/ai_core_gamma.png" alt="AI Core Gamma" className="h-10 w-10 shrink-0" /></Link>
-                            <span>Improves AI core training methodology by <span style={{ color: 'rgb(255, 210, 0)' }}>10%</span> (adds <span style={{ color: 'rgb(255, 210, 0)' }}>10</span> to the monthly training roll).</span>
+                            <span>Improves AI core training methodology by <span style={{ color: 'rgb(255, 210, 0)' }}>5%</span> (adds <span style={{ color: 'rgb(255, 210, 0)' }}>5</span> to the monthly training roll).</span>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ export default function KletkaSimulator() {
                 <div className="flex flex-col gap-1">
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>With the maximum combined bonus of <span style={{ color: 'rgb(255, 210, 0)' }}>40</span> (alpha core + improvement), alpha core output becomes possible but still rare: roughly <span style={{ color: 'rgb(255, 210, 0)' }}>40%</span> alpha, <span style={{ color: 'rgb(255, 210, 0)' }}>25%</span> beta, <span style={{ color: 'rgb(255, 210, 0)' }}>25%</span> gamma, <span style={{ color: 'rgb(255, 210, 0)' }}>10%</span> nothing.</li>
+                        <li>With the maximum combined bonus of <span style={{ color: 'rgb(255, 210, 0)' }}>25</span> (alpha core + improvement), the production odds are as follows: <span style={{ color: 'rgb(255, 210, 0)' }}>25%</span> alpha, <span style={{ color: 'rgb(255, 210, 0)' }}>25%</span> beta, <span style={{ color: 'rgb(255, 210, 0)' }}>25%</span> gamma, <span style={{ color: 'rgb(255, 210, 0)' }}>25%</span> nothing.</li>
                     </ul>
                 </div>
                 <div><Link href="https://starsector.wiki.gg/wiki/Colony#Luddic_Path_cells" style={{ color: 'rgb(5, 250, 250)' }}>Pather interest</Link>: <span style={{ color: 'rgb(255, 210, 0)' }}>10</span></div>

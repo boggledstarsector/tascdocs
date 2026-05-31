@@ -3,7 +3,7 @@ export default function TermsAndConditions() {
         <div className="w-full lg:max-w-[1200px] lg:mx-auto">
             <section className="flex flex-col py-8 px-[2.5%] gap-4 text-base leading-relaxed">
                 <h1 className="text-3xl font-bold">Terms and Conditions</h1>
-                <p className="text-sm opacity-80">Effective date: January 1, 2026</p>
+                <p className="text-sm opacity-80">Effective date: May 30, 2026</p>
 
                 <p>
                     Welcome to this website (the &quot;Site&quot;), operated by boggled (&quot;we&quot;,
@@ -66,16 +66,35 @@ export default function TermsAndConditions() {
                     may arise from downloading or using the mod or any related content.
                 </p>
 
-                <h2 className="text-2xl font-bold mt-4">4. Third-Party Links and Advertising</h2>
+                <h2 className="text-2xl font-bold mt-4">4. Third-Party Services, Links, and Advertising</h2>
                 <p>
-                    The Site may contain links to third-party websites and may display advertisements
-                    served by third parties such as Google AdSense. We do not control and are not
+                    The Site uses third-party services including Google Analytics 4 (for web analytics)
+                    and Google AdSense (for advertising), both provided by Google LLC. These services may
+                    collect information about your use of the Site through cookies and similar technologies.
+                    The Site may also contain links to third-party websites. We do not control and are not
                     responsible for the content, accuracy, privacy practices, or availability of any
-                    third-party website or advertisement. Your interactions with any third party found on
-                    or through the Site are solely between you and that third party.
+                    third-party website, service, or advertisement. Your interactions with any third party
+                    found on or through the Site are solely between you and that third party.
                 </p>
 
-                <h2 className="text-2xl font-bold mt-4">5. Disclaimer of Warranties</h2>
+                <h2 className="text-2xl font-bold mt-4">5. Data Collection and Privacy</h2>
+                <p>
+                    By using the Site, you acknowledge that certain information about your visit may be
+                    collected automatically by third-party services, including Cloudflare (hosting and
+                    security), Google Analytics (usage analytics), and Google AdSense (advertising). This
+                    information may include your IP address, browser type, device information, pages
+                    visited, and interactions with advertisements. For full details on what data is
+                    collected and how it is used, please review our{" "}
+                    <a
+                        href="/privacy-policy"
+                        className="underline"
+                    >
+                        Privacy Policy
+                    </a>
+                    .
+                </p>
+
+                <h2 className="text-2xl font-bold mt-4">6. Disclaimer of Warranties</h2>
                 <p>
                     THE SITE AND ALL CONTENT ARE PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot;
                     WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
@@ -84,7 +103,7 @@ export default function TermsAndConditions() {
                     SECURE, OR ERROR-FREE, OR THAT ANY INFORMATION PROVIDED IS COMPLETE OR CURRENT.
                 </p>
 
-                <h2 className="text-2xl font-bold mt-4">6. Limitation of Liability</h2>
+                <h2 className="text-2xl font-bold mt-4">7. Limitation of Liability</h2>
                 <p>
                     TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL BOGGLED BE LIABLE
                     FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS
@@ -94,7 +113,7 @@ export default function TermsAndConditions() {
                     DAMAGES.
                 </p>
 
-                <h2 className="text-2xl font-bold mt-4">7. Indemnification</h2>
+                <h2 className="text-2xl font-bold mt-4">8. Indemnification</h2>
                 <p>
                     You agree to defend, indemnify, and hold harmless boggled from and against any claims,
                     liabilities, damages, losses, and expenses (including reasonable attorneys&apos; fees)
@@ -102,7 +121,7 @@ export default function TermsAndConditions() {
                     violation of these Terms.
                 </p>
 
-                <h2 className="text-2xl font-bold mt-4">8. Changes to the Site and Terms</h2>
+                <h2 className="text-2xl font-bold mt-4">9. Changes to the Site and Terms</h2>
                 <p>
                     We reserve the right to modify, suspend, or discontinue the Site or any part of it at
                     any time without notice. We may also update these Terms from time to time. When we do,
@@ -110,7 +129,7 @@ export default function TermsAndConditions() {
                     Site after any changes indicates your acceptance of the updated Terms.
                 </p>
 
-                <h2 className="text-2xl font-bold mt-4">9. Governing Law</h2>
+                <h2 className="text-2xl font-bold mt-4">10. Governing Law</h2>
                 <p>
                     These Terms are governed by and construed in accordance with the laws of the State of
                     New Jersey, United States, without regard to its conflict of law principles. Any
@@ -118,14 +137,14 @@ export default function TermsAndConditions() {
                     exclusive jurisdiction of the state and federal courts located in New Jersey.
                 </p>
 
-                <h2 className="text-2xl font-bold mt-4">10. Severability</h2>
+                <h2 className="text-2xl font-bold mt-4">11. Severability</h2>
                 <p>
                     If any provision of these Terms is held to be invalid or unenforceable, that provision
                     will be limited or eliminated to the minimum extent necessary, and the remaining
                     provisions will remain in full force and effect.
                 </p>
 
-                <h2 className="text-2xl font-bold mt-4">11. Contact</h2>
+                <h2 className="text-2xl font-bold mt-4">12. Contact</h2>
                 <p>
                     If you have any questions about these Terms, you can contact us at{" "}
                     <a href="mailto:boggledstarsector@gmail.com" className="underline">

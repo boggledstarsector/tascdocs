@@ -59,7 +59,6 @@ export default function AtmosphereProcessor() {
                 <div className="flex flex-col gap-1">
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>Can only be built on worlds with suboptimal atmospheric conditions (wrong atmospheric density or a toxic atmosphere).</li>
                         <li>Cannot be built on stars, gas giants, volcanic worlds, or irradiated worlds (unless the remove radiation project is enabled in <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'rgb(5, 250, 250)' }}>LunaLib</Link> settings).</li>
                     </ul>
                 </div>

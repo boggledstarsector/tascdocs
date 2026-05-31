@@ -5,13 +5,97 @@ export default function DomedCities() {
         <div className="w-full lg:max-w-[1200px] lg:mx-auto">
             <section className="flex flex-col py-8 px-[2.5%] gap-4 text-base leading-relaxed">
                 <h1 className="text-3xl font-bold">Domed Cities</h1>
-                <div className="flex justify-start">
-                    <img
-                        src="/images/buildings/terraforming/domed_cities.png"
-                        alt="Domed Cities"
-                        className="h-auto border"
-                        style={{ borderColor: 'rgb(5, 250, 250)' }}
-                    />
+                <div className="flex flex-wrap justify-start gap-4">
+                    <div className="flex flex-col gap-1 items-start">
+                        <img
+                            src="/images/buildings/terraforming/domed_cities_barren.png"
+                            alt="Domed Cities barren variant"
+                            className="h-auto border"
+                            style={{ borderColor: 'rgb(5, 250, 250)' }}
+                        />
+                        <div className="italic opacity-60 text-sm">Barren variant</div>
+                    </div>
+                    <div className="flex flex-col gap-1 items-start">
+                        <img
+                            src="/images/buildings/terraforming/domed_cities_desert.png"
+                            alt="Domed Cities desert variant"
+                            className="h-auto border"
+                            style={{ borderColor: 'rgb(5, 250, 250)' }}
+                        />
+                        <div className="italic opacity-60 text-sm">Desert variant</div>
+                    </div>
+                    <div className="flex flex-col gap-1 items-start">
+                        <img
+                            src="/images/buildings/terraforming/domed_cities_frozen.png"
+                            alt="Domed Cities frozen variant"
+                            className="h-auto border"
+                            style={{ borderColor: 'rgb(5, 250, 250)' }}
+                        />
+                        <div className="italic opacity-60 text-sm">Frozen variant</div>
+                    </div>
+                    <div className="flex flex-col gap-1 items-start">
+                        <img
+                            src="/images/buildings/terraforming/domed_cities_jungle.png"
+                            alt="Domed Cities jungle variant"
+                            className="h-auto border"
+                            style={{ borderColor: 'rgb(5, 250, 250)' }}
+                        />
+                        <div className="italic opacity-60 text-sm">Jungle variant</div>
+                    </div>
+                    <div className="flex flex-col gap-1 items-start">
+                        <img
+                            src="/images/buildings/terraforming/domed_cities_terran.png"
+                            alt="Domed Cities terran variant"
+                            className="h-auto border"
+                            style={{ borderColor: 'rgb(5, 250, 250)' }}
+                        />
+                        <div className="italic opacity-60 text-sm">Terran variant</div>
+                    </div>
+                    <div className="flex flex-col gap-1 items-start">
+                        <img
+                            src="/images/buildings/terraforming/domed_cities_toxic.png"
+                            alt="Domed Cities toxic variant"
+                            className="h-auto border"
+                            style={{ borderColor: 'rgb(5, 250, 250)' }}
+                        />
+                        <div className="italic opacity-60 text-sm">Toxic variant</div>
+                    </div>
+                    <div className="flex flex-col gap-1 items-start">
+                        <img
+                            src="/images/buildings/terraforming/domed_cities_tundra.png"
+                            alt="Domed Cities tundra variant"
+                            className="h-auto border"
+                            style={{ borderColor: 'rgb(5, 250, 250)' }}
+                        />
+                        <div className="italic opacity-60 text-sm">Tundra variant</div>
+                    </div>
+                    <div className="flex flex-col gap-1 items-start">
+                        <img
+                            src="/images/buildings/terraforming/domed_cities_volcanic.png"
+                            alt="Domed Cities volcanic variant"
+                            className="h-auto border"
+                            style={{ borderColor: 'rgb(5, 250, 250)' }}
+                        />
+                        <div className="italic opacity-60 text-sm">Volcanic variant</div>
+                    </div>
+                    <div className="flex flex-col gap-1 items-start">
+                        <img
+                            src="/images/buildings/terraforming/sky_cities.png"
+                            alt="Sky Cities gas giant variant"
+                            className="h-auto border"
+                            style={{ borderColor: 'rgb(5, 250, 250)' }}
+                        />
+                        <div className="italic opacity-60 text-sm"><Link href="/docs/sky-cities" style={{ color: 'inherit' }}>Sky Cities</Link> (gas giant)</div>
+                    </div>
+                    <div className="flex flex-col gap-1 items-start">
+                        <img
+                            src="/images/buildings/terraforming/seafloor_cities.png"
+                            alt="Seafloor Cities water variant"
+                            className="h-auto border"
+                            style={{ borderColor: 'rgb(5, 250, 250)' }}
+                        />
+                        <div className="italic opacity-60 text-sm"><Link href="/docs/seafloor-cities" style={{ color: 'inherit' }}>Seafloor Cities</Link> (water)</div>
+                    </div>
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">Hermetically sealed domes dozens of kilometers across can enclose the bulk of a colony's population in a relatively Earth-like environment. Hazardous conditions imposed by atmospheric properties, <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'inherit' }}>extreme weather</Link> and dangerous fauna are mitigated inside the domes. Concentrating industrial and population centers under fragile domes makes the colony almost defenseless against raiding and bombardment.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
@@ -61,13 +145,13 @@ export default function DomedCities() {
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
                         <li>
-                            Has different versions depending on the <Link href="https://starsector.wiki.gg/wiki/Category:Planets" style={{ color: 'rgb(5, 250, 250)' }}>planet type</Link>:
+                            The building&apos;s image changes based on the host <Link href="https://starsector.wiki.gg/wiki/Category:Planets" style={{ color: 'rgb(5, 250, 250)' }}>planet type</Link> (barren, desert, frozen, jungle, terran, toxic, tundra, or volcanic). All variants are functionally identical and differ only in visual presentation. Additionally, there are special versions depending on the planet type:
                             <ul className="list-inside pl-4 mt-0 mb-1" style={{ listStyleType: 'circle' }}>
-                                <li>Sky Cities on gas giants</li>
-                                <li>Seafloor Cities on water worlds</li>
+                                <li><Link href="/docs/sky-cities" style={{ color: 'rgb(5, 250, 250)' }}>Sky Cities</Link> on gas giants</li>
+                                <li><Link href="/docs/seafloor-cities" style={{ color: 'rgb(5, 250, 250)' }}>Seafloor Cities</Link> on water worlds</li>
                             </ul>
                         </li>
-                        <li>Cannot be constructed on colonies with <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>Meteor Impacts</Link> or <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>Extreme Tectonic Activity</Link>. If there is an operational Harmonic Damper on the colony, <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>Extreme Tectonic Activity</Link> does not prevent construction.</li>
+                        <li>Cannot be constructed on colonies with <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>Meteor Impacts</Link> or <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>Extreme Tectonic Activity</Link>. If there is an operational <Link href="/docs/harmonic-damper" style={{ color: 'rgb(5, 250, 250)' }}>Harmonic Damper</Link> on the colony, <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>Extreme Tectonic Activity</Link> does not prevent construction.</li>
                         <li>The list of conditions suppressed by this building can be configured by the player by modifying the CSV file <Link href="https://github.com/boggledstarsector/TASC/blob/main/data/campaign/terraforming/domed_cities_suppressed_conditions.csv" style={{ color: 'rgb(5, 250, 250)' }}>here</Link> in the TASC mod folder.</li>
                     </ul>
                 </div>
