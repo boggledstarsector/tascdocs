@@ -45,13 +45,6 @@ export default function AboutUs() {
                     respective owners.
                 </p>
 
-                <h2 className="text-2xl font-bold mt-4">Supporting the Site</h2>
-                <p>
-                    To help cover hosting costs and keep the Site freely available to the Starsector
-                    community, this Site displays advertisements through Google AdSense. If you would like
-                    to support the Site, simply disabling ad blockers for this domain is appreciated.
-                </p>
-
                 <h2 className="text-2xl font-bold mt-4">Get in Touch</h2>
                 <p>
                     For questions, feedback, bug reports, or suggestions about the mod, the best place

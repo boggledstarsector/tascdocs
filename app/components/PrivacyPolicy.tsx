@@ -87,60 +87,14 @@ export default function PrivacyPolicy() {
                     .
                 </p>
 
-                <h2 className="text-2xl font-bold mt-4">4. Advertising (Google AdSense)</h2>
-                <p>
-                    The Site uses Google AdSense, a third-party advertising service provided by Google LLC,
-                    to display advertisements. Google and its partners may use cookies, web beacons, and
-                    similar technologies to serve ads based on your prior visits to this Site or other
-                    websites. This may include the collection of information such as your IP address, device
-                    identifiers, browser information, and interactions with ads.
-                </p>
-                <p>
-                    Google&apos;s use of advertising cookies enables it and its partners to serve ads to you
-                    based on your visit to this Site and/or other sites on the Internet. You may opt out of
-                    personalized advertising by visiting Google&apos;s Ads Settings at{" "}
-                    <a
-                        href="https://adssettings.google.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="underline"
-                    >
-                        https://adssettings.google.com/
-                    </a>
-                    . You can also opt out of some third-party vendors&apos; use of cookies for personalized
-                    advertising by visiting{" "}
-                    <a
-                        href="https://www.aboutads.info/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="underline"
-                    >
-                        www.aboutads.info
-                    </a>
-                    .
-                </p>
-                <p>
-                    For more information about how Google handles data from its advertising partners, see{" "}
-                    <a
-                        href="https://policies.google.com/technologies/partner-sites"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="underline"
-                    >
-                        https://policies.google.com/technologies/partner-sites
-                    </a>
-                    .
-                </p>
-
                 <h2 className="text-2xl font-bold mt-4">5. Cookies</h2>
                 <p>
                     We do not set any first-party cookies ourselves. Cookies and similar technologies may be
-                    set by the third-party services listed above (Cloudflare, Google Analytics, and Google
-                    AdSense). Google Analytics uses cookies (such as <code>_ga</code> and <code>_ga_*</code>)
-                    to distinguish unique users and throttle request rates. Google AdSense may set additional
-                    cookies for ad personalization. Most web browsers allow you to control cookies through
-                    their settings; you can choose to block or delete cookies, though doing so may affect
-                    how the Site, its analytics, or its advertisements function.
+                    set by the third-party services listed above (Cloudflare and Google Analytics). Google
+                    Analytics uses cookies (such as <code>_ga</code> and <code>_ga_*</code>) to distinguish
+                    unique users and throttle request rates. Most web browsers allow you to control cookies
+                    through their settings; you can choose to block or delete cookies, though doing so may
+                    affect how the Site or its analytics function.
                 </p>
 
                 <h2 className="text-2xl font-bold mt-4">6. Children&apos;s Privacy</h2>
@@ -162,9 +116,9 @@ export default function PrivacyPolicy() {
                 </p>
                 <p>
                     Because we do not collect personal information directly, any such requests generally
-                    need to be directed to the third-party services that process your data (Cloudflare,
-                    Google Analytics, and Google AdSense). You may also contact us at the address below and
-                    we will assist where possible.
+                    need to be directed to the third-party services that process your data (Cloudflare and
+                    Google Analytics). You may also contact us at the address below and we will assist where
+                    possible.
                 </p>
 
                 <h2 className="text-2xl font-bold mt-4">8. Your Rights Under the GDPR</h2>

@@ -68,23 +68,22 @@ export default function TermsAndConditions() {
 
                 <h2 className="text-2xl font-bold mt-4">4. Third-Party Services, Links, and Advertising</h2>
                 <p>
-                    The Site uses third-party services including Google Analytics 4 (for web analytics)
-                    and Google AdSense (for advertising), both provided by Google LLC. These services may
-                    collect information about your use of the Site through cookies and similar technologies.
-                    The Site may also contain links to third-party websites. We do not control and are not
-                    responsible for the content, accuracy, privacy practices, or availability of any
-                    third-party website, service, or advertisement. Your interactions with any third party
-                    found on or through the Site are solely between you and that third party.
+                    The Site uses third-party services including Google Analytics 4 (for web analytics),
+                    both provided by Google LLC. These services may collect information about your use of
+                    the Site through cookies and similar technologies. The Site may also contain links to
+                    third-party websites. We do not control and are not responsible for the content,
+                    accuracy, privacy practices, or availability of any third-party website or service.
+                    Your interactions with any third party found on or through the Site are solely
+                    between you and that third party.
                 </p>
 
                 <h2 className="text-2xl font-bold mt-4">5. Data Collection and Privacy</h2>
                 <p>
                     By using the Site, you acknowledge that certain information about your visit may be
                     collected automatically by third-party services, including Cloudflare (hosting and
-                    security), Google Analytics (usage analytics), and Google AdSense (advertising). This
-                    information may include your IP address, browser type, device information, pages
-                    visited, and interactions with advertisements. For full details on what data is
-                    collected and how it is used, please review our{" "}
+                    security) and Google Analytics (usage analytics). This information may include your IP
+                    address, browser type, device information, and pages visited. For full details on what
+                    data is collected and how it is used, please review our{" "}
                     <a
                         href="/privacy-policy"
                         className="underline"
