@@ -20,7 +20,7 @@ export default function RemoveAtmosphere() {
                         <li>World type allows <Link href="/docs/terraforming" style={{ color: 'rgb(5, 250, 250)' }}>terraforming</Link></li>
                         <li>Planet is not a <Link href="https://starsector.wiki.gg/wiki/Market_condition#Farmland" style={{ color: 'rgb(5, 250, 250)' }}>water world</Link></li>
                         <li>Planet has an atmosphere</li>
-                        <li><Link href="/docs/atmosphere-processor" style={{ color: 'rgb(5, 250, 250)' }}>Atmosphere Processor</Link> is operational on the colony</li>
+                        <li><Link href="/docs/atmosphere-processor" style={{ color: 'rgb(5, 250, 250)' }}>Atmosphere Processor</Link> is operational on the colony <span className="italic opacity-60">(not required if the <Link href="/docs/atmosphere-processor" style={{ color: 'inherit' }}>Atmosphere Processor</Link> building is disabled via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></li>
                     </ul>
                 </div>
 

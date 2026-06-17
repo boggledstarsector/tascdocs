@@ -60,6 +60,7 @@ export default function AtmosphereProcessor() {
                     <div>Notes:</div>
                     <ul className="list-disc list-inside pl-4">
                         <li>Cannot be built on stars, gas giants, volcanic worlds, or irradiated worlds (unless the remove radiation project is enabled in <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'rgb(5, 250, 250)' }}>LunaLib</Link> settings).</li>
+                        <li>Disabling this building in the <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'rgb(5, 250, 250)' }}>LunaLib</Link> settings will cause <Link href="/docs/terraforming" style={{ color: 'rgb(5, 250, 250)' }}>terraforming projects</Link> that require it to no longer require it.</li>
                     </ul>
                 </div>
                 <div><Link href="https://starsector.wiki.gg/wiki/Colony#Luddic_Path_cells" style={{ color: 'rgb(5, 250, 250)' }}>Pather interest</Link>: <span style={{ color: 'rgb(255, 210, 0)' }}>2</span></div>
