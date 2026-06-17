@@ -18,7 +18,7 @@ export default function FrozenTypeChange() {
                         <li>Planet is not already a frozen world</li>
                         <li>Atmospheric density is normal</li>
                         <li>Temperature is <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>very cold</Link></li>
-                        <li>Water level is <span style={{ color: 'rgb(255, 210, 0)' }}>high</span></li>
+                        <li>Water level is <span style={{ color: 'rgb(255, 210, 0)' }}>high</span> <span className="italic opacity-60">(not required if <Link href="/docs/ismaras-sling" style={{ color: 'inherit' }}>Ismara&apos;s Sling</Link> and <Link href="/docs/asteroid-processing" style={{ color: 'inherit' }}>Asteroid Processing</Link> are disabled via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span></li>
                     </ul>
                 </div>
 

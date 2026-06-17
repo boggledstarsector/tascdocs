@@ -68,6 +68,7 @@ export default function IsmarasSling() {
                         </li>
                         <li>Can only be built on cryovolcanic, frozen, and water-covered worlds. If the player terraforms a host world into an incompatible type after construction, the building is automatically removed.</li>
                         <li>Only assists terraforming projects on worlds in the same star system.</li>
+                        <li>Disabling Ismara&apos;s Sling and <Link href="/docs/asteroid-processing" style={{ color: 'rgb(5, 250, 250)' }}>Asteroid Processing</Link> in the <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'rgb(5, 250, 250)' }}>LunaLib</Link> settings will cause <Link href="/docs/terraforming" style={{ color: 'rgb(5, 250, 250)' }}>terraforming projects</Link> that require water from them to no longer require it.</li>
                     </ul>
                 </div>
                 <div><Link href="https://starsector.wiki.gg/wiki/Colony#Luddic_Path_cells" style={{ color: 'rgb(5, 250, 250)' }}>Pather interest</Link>: <span style={{ color: 'rgb(255, 210, 0)' }}>2</span></div>
