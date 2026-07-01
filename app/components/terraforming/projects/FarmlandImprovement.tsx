@@ -35,6 +35,7 @@ export default function FarmlandImprovement() {
                                 <li>To reach poor, adequate, or rich: water level must be <span style={{ color: 'rgb(255, 210, 0)' }}>medium</span> or higher</li>
                                 <li>To reach bountiful: water level must be <span style={{ color: 'rgb(255, 210, 0)' }}>high</span></li>
                             </ul>
+                            <span className="italic opacity-60">(not required if <Link href="/docs/ismaras-sling" style={{ color: 'inherit' }}>Ismara&apos;s Sling</Link> and <Link href="/docs/asteroid-processing" style={{ color: 'inherit' }}>Asteroid Processing</Link> are disabled via <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings)</span>
                         </li>
                         <li>Atmospheric density is normal</li>
                         <li>Atmosphere is not <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>toxic</Link> or <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>irradiated</Link></li>
