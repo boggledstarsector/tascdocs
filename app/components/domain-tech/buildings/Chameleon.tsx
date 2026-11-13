@@ -13,7 +13,7 @@ export default function Chameleon() {
                         style={{ borderColor: 'rgb(5, 250, 250)' }}
                     />
                 </div>
-                <div className="md:max-w-[750px]"><span className="italic">The CHAMELEON is a supercomputer composed of specialized Domain-era hardware capable of breaking most forms of encryption used in the Sector. Security forces can leverage the intelligence gleaned using this construct to eradicate <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'inherit' }}>decivilized subpopulations</Link>, <Link href="https://starsector.wiki.gg/wiki/Market_condition#Other" style={{ color: 'inherit' }}>rogue AI cores</Link>, and rampant military cores.</span></div>
+                <div className="md:max-w-[750px]"><span className="italic">The CHAMELEON is a supercomputer composed of specialized Domain-era hardware capable of breaking most forms of encryption used in the Sector. Security forces can leverage the intelligence gleaned using this construct to eradicate <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'inherit' }}>decivilized subpopulations</Link> and <Link href="https://starsector.wiki.gg/wiki/Market_condition#Other" style={{ color: 'inherit' }}>rogue AI cores</Link>.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>225,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>60</span> days</div>
@@ -44,11 +44,7 @@ export default function Chameleon() {
                                 <li className="italic opacity-60">The termination project length is configurable in <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings.</li>
                             </ul>
                         </li>
-                        <li>After the same number of days, terminates a Rampant Military Core from Random Assortment of Things on the host world. Removes the core administrator and the condition's stability penalty, fleet-size bonus, and extra patrols.
-                            <ul className="list-disc list-inside pl-6">
-                                <li className="italic opacity-60">Uses the rogue AI core termination length in <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings.</li>
-                            </ul>
-                        </li>
+                        <li>Cannot be built on a colony controlled by a Rampant Military Core from Random Assortment of Things. The core will not allow it to be constructed. A CHAMELEON already on that colony is disabled and provides no bonuses, including its eradication projects, stability improvement, Pather neutralization, and installed AI-core effects.</li>
                     </ul>
                 </div>
                 <div className="flex flex-col gap-1">
