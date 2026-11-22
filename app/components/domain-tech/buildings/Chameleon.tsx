@@ -39,7 +39,6 @@ export default function Chameleon() {
                                 <li className="italic opacity-60">The termination project length is configurable in <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings.</li>
                             </ul>
                         </li>
-                        <li>Cannot be built on a colony controlled by a Rampant Military Core from Random Assortment of Things. The core will not allow it to be constructed. A CHAMELEON already on that colony is disabled and provides no bonuses, including its rogue AI core termination, stability improvement, Pather neutralization, and installed AI-core effects.</li>
                     </ul>
                 </div>
                 <div className="flex flex-col gap-1">
