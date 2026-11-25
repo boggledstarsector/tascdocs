@@ -50,7 +50,7 @@ export default function Cloning() {
                     <div>Effects:</div>
                     <ul className="list-disc list-inside pl-4">
                         <li>Increases colony population growth by <span style={{ color: 'rgb(255, 210, 0)' }}>colony size - 1</span> while functional.</li>
-                        <li>A functional <Link href="/docs/genelab" style={{ color: 'rgb(5, 250, 250)' }}>Genelab</Link> on the same colony increases harvested organs production by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>, plus any further bonus from an alpha core and from improving the Genelab.</li>
+                        <li>A functional <Link href="/docs/genelab" style={{ color: 'rgb(5, 250, 250)' }}>Genelab</Link> on the same colony increases harvested organs production by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>. An alpha core installed in the Genelab and improving the Genelab each increase that bonus by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>.</li>
                         <li><Link href="https://starsector.wiki.gg/wiki/Harvested_Organs" style={{ color: 'rgb(5, 250, 250)' }}>Harvested organs</Link> production is reduced if <Link href="/docs/domain-archaeology" style={{ color: 'rgb(5, 250, 250)' }}>hyperlattice alloys</Link> (when enabled) or organics (on non-habitable worlds) demand is unmet.</li>
                     </ul>
                 </div>

@@ -49,7 +49,7 @@ export default function Hydroponics() {
                 <div className="flex flex-col gap-1">
                     <div>Effects:</div>
                     <ul className="list-disc list-inside pl-4">
-                        <li>A functional <Link href="/docs/genelab" style={{ color: 'rgb(5, 250, 250)' }}>Genelab</Link> on the same colony increases food production by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>, plus any further bonus from an alpha core and from improving the Genelab.</li>
+                        <li>A functional <Link href="/docs/genelab" style={{ color: 'rgb(5, 250, 250)' }}>Genelab</Link> on the same colony increases food production by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>. An alpha core installed in the Genelab and improving the Genelab each increase that bonus by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>.</li>
                         <li>Food production is reduced if heavy machinery (or, on non-habitable worlds, organics) demand is unmet.</li>
                     </ul>
                 </div>

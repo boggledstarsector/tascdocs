@@ -6,20 +6,20 @@ export default function Genelab() {
             <section className="flex flex-col py-8 px-[2.5%] gap-4 text-base leading-relaxed">
                 <h1 className="text-3xl font-bold">Genelab</h1>
                 <div className="flex flex-wrap justify-start gap-4">
-                    <div className="flex flex-col gap-1 items-start">
+                    <div className="flex w-[190px] shrink-0 flex-col gap-1 items-start">
                         <img
                             src="/images/buildings/terraforming/genelab_lobster.png"
                             alt="Genelab lobster variant"
-                            className="h-auto border"
+                            className="h-auto w-full border"
                             style={{ borderColor: 'rgb(5, 250, 250)' }}
                         />
                         <div className="italic opacity-60 text-sm">Lobster variant (<Link href="https://starsector.wiki.gg/wiki/Market_condition#Farmland" style={{ color: 'inherit' }}>water-surface</Link> worlds)</div>
                     </div>
-                    <div className="flex flex-col gap-1 items-start">
+                    <div className="flex w-[190px] shrink-0 flex-col gap-1 items-start">
                         <img
                             src="/images/buildings/terraforming/genelab_trex.png"
                             alt="Genelab T-Rex variant"
-                            className="h-auto border"
+                            className="h-auto w-full border"
                             style={{ borderColor: 'rgb(5, 250, 250)' }}
                         />
                         <div className="italic opacity-60 text-sm">T-Rex variant (all other worlds)</div>
