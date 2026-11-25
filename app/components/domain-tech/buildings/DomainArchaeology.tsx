@@ -6,38 +6,38 @@ export default function DomainArchaeology() {
             <section className="flex flex-col py-8 px-[2.5%] gap-4 text-base leading-relaxed">
                 <h1 className="text-3xl font-bold">Domain Archaeology</h1>
                 <div className="flex flex-wrap justify-start gap-4">
-                    <div className="flex flex-col gap-1 items-start">
+                    <div className="flex w-[190px] shrink-0 flex-col gap-1 items-start">
                         <img
                             src="/images/buildings/terraforming/domain_archaeology_barren.png"
                             alt="Domain Archaeology barren variant"
-                            className="h-auto border"
+                            className="h-auto w-full border"
                             style={{ borderColor: 'rgb(5, 250, 250)' }}
                         />
                         <div className="italic opacity-60 text-sm">Barren variant (other worlds)</div>
                     </div>
-                    <div className="flex flex-col gap-1 items-start">
+                    <div className="flex w-[190px] shrink-0 flex-col gap-1 items-start">
                         <img
                             src="/images/buildings/terraforming/domain_archaeology_desert.png"
                             alt="Domain Archaeology desert variant"
-                            className="h-auto border"
+                            className="h-auto w-full border"
                             style={{ borderColor: 'rgb(5, 250, 250)' }}
                         />
                         <div className="italic opacity-60 text-sm">Desert variant (desert and volcanic)</div>
                     </div>
-                    <div className="flex flex-col gap-1 items-start">
+                    <div className="flex w-[190px] shrink-0 flex-col gap-1 items-start">
                         <img
                             src="/images/buildings/terraforming/domain_archaeology_jungle.png"
                             alt="Domain Archaeology jungle variant"
-                            className="h-auto border"
+                            className="h-auto w-full border"
                             style={{ borderColor: 'rgb(5, 250, 250)' }}
                         />
                         <div className="italic opacity-60 text-sm">Jungle variant (jungle and terran)</div>
                     </div>
-                    <div className="flex flex-col gap-1 items-start">
+                    <div className="flex w-[190px] shrink-0 flex-col gap-1 items-start">
                         <img
                             src="/images/buildings/terraforming/domain_archaeology_tundra.png"
                             alt="Domain Archaeology tundra variant"
-                            className="h-auto border"
+                            className="h-auto w-full border"
                             style={{ borderColor: 'rgb(5, 250, 250)' }}
                         />
                         <div className="italic opacity-60 text-sm">Tundra variant (frozen and tundra)</div>
