@@ -13,7 +13,7 @@ export default function IsmarasSling() {
                         style={{ borderColor: 'rgb(5, 250, 250)' }}
                     />
                 </div>
-                <div className="md:max-w-[750px]"><span className="italic">Surface-to-orbit mass drivers of titanic scale, originally reverse-engineered from the ancient Eridani-Utopia terraforming installations on Ismara. Each driver accelerates ice-laden projectiles to escape velocity, launching them on carefully calculated trajectories toward target worlds in need of additional water for terraforming.</span></div>
+                <div className="md:max-w-[750px]"><span className="italic">Surface-to-orbit mass drivers of titanic scale, reverse-engineered from the derelict Eridani-Utopia terraforming installations on Ismara. Each mass driver accelerates ice-laden projectiles to escape velocity, launching them on carefully calculated trajectories toward target worlds in need of additional water for terraforming.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>225,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>90</span> days</div>

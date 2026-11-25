@@ -14,8 +14,8 @@ export default function Cloning() {
                     />
                 </div>
                 <div className="md:max-w-[750px]"><span className="italic">Clones are grown in vats, their developing minds connected to a virtual reality simulation via brain-machine interface. Those that are productive and compliant in the simulation are released into general society. The rest are used for organ harvesting.</span></div>
-                <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings to enable)</span></div>
-                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>600,000¢</span></div>
+                <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
+                <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>1,000,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>120</span> days</div>
                 <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>6,000¢</span> * (colony size - 2)</div>
                 <div className="flex flex-col gap-1">
@@ -34,9 +34,9 @@ export default function Cloning() {
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
                             <Link href="/docs/domain-archaeology" className="shrink-0">
-                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10 shrink-0" />
+                                <img src="/images/commodities/hyperlattice_alloys.png" alt="Hyperlattice alloys" className="h-10 w-10 shrink-0" />
                             </Link>
-                            <span>colony size <span className="italic opacity-60">(only demanded when Domain-tech content and <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> are enabled)</span></span>
+                            <span>colony size + 2 <span className="italic opacity-60">(only demanded when Domain-tech content and <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> are enabled)</span></span>
                         </div>
                         <div className="flex items-center gap-2">
                             <Link href="https://starsector.wiki.gg/wiki/Organics" className="shrink-0">
@@ -50,7 +50,8 @@ export default function Cloning() {
                     <div>Effects:</div>
                     <ul className="list-disc list-inside pl-4">
                         <li>Increases colony population growth by <span style={{ color: 'rgb(255, 210, 0)' }}>colony size - 1</span> while functional.</li>
-                        <li><Link href="https://starsector.wiki.gg/wiki/Harvested_Organs" style={{ color: 'rgb(5, 250, 250)' }}>Harvested organs</Link> production is reduced if <Link href="/docs/domain-archaeology" style={{ color: 'rgb(5, 250, 250)' }}>Domain-era artifacts</Link> (when enabled) or organics (on non-habitable worlds) demand is unmet.</li>
+                        <li>A functional <Link href="/docs/genelab" style={{ color: 'rgb(5, 250, 250)' }}>Genelab</Link> on the same colony increases harvested organs production by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>. An alpha core installed in the Genelab and improving the Genelab each increase that bonus by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>.</li>
+                        <li><Link href="https://starsector.wiki.gg/wiki/Harvested_Organs" style={{ color: 'rgb(5, 250, 250)' }}>Harvested organs</Link> production is reduced if <Link href="/docs/domain-archaeology" style={{ color: 'rgb(5, 250, 250)' }}>hyperlattice alloys</Link> (when enabled) or organics (on non-habitable worlds) demand is unmet.</li>
                     </ul>
                 </div>
                 <div className="flex flex-col gap-1">

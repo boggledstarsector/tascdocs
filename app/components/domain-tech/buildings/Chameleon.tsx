@@ -13,7 +13,7 @@ export default function Chameleon() {
                         style={{ borderColor: 'rgb(5, 250, 250)' }}
                     />
                 </div>
-                <div className="md:max-w-[750px]"><span className="italic">The CHAMELEON is a supercomputer composed of specialized Domain-era hardware capable of breaking most forms of encryption used in the Sector. Security forces can leverage the intelligence gleaned using this construct to eradicate <Link href="https://starsector.wiki.gg/wiki/Market_condition#Other" style={{ color: 'inherit' }}>rogue AI cores</Link>.</span></div>
+                <div className="md:max-w-[750px]"><span className="italic">The CHAMELEON is a specialized supercomputer capable of breaking most forms of encryption used in the Sector. Security forces can leverage the intelligence gleaned using this construct to eradicate <Link href="https://starsector.wiki.gg/wiki/Market_condition#Other" style={{ color: 'inherit' }}>rogue AI cores</Link> and infiltrate <Link href="https://starsector.wiki.gg/wiki/Colony#Luddic_Path_cells" style={{ color: 'inherit' }}>Pather cells</Link>.</span></div>
                 <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>225,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>60</span> days</div>
@@ -24,7 +24,7 @@ export default function Chameleon() {
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
                             <Link href="/docs/domain-archaeology" className="shrink-0">
-                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10 shrink-0" />
+                                <img src="/images/commodities/hyperlattice_alloys.png" alt="Hyperlattice alloys" className="h-10 w-10 shrink-0" />
                             </Link>
                             <span>colony size <span className="italic opacity-60">(only demanded when Domain-tech content and <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> are enabled)</span></span>
                         </div>
