@@ -13,8 +13,8 @@ export default function Hydroponics() {
                         style={{ borderColor: 'rgb(5, 250, 250)' }}
                     />
                 </div>
-                <div className="md:max-w-[750px]"><span className="italic">Without soil or natural light, life finds a way. These hydroponic bays represent centuries of agricultural refinement dating back to the first generation ships and O'Neill cylinders of Old Earth's diaspora. Nutrient-rich water circulates through racks of genetically modified crops optimized for minimal space and maximum caloric output, their grow-lights cycling in rhythms that mimic forgotten seasons.</span></div>
-                <div>Enabled by default: <span style={{ color: 'rgb(200, 10, 20)' }}>No</span><span className="italic opacity-60"> (use <Link href="https://fractalsoftworks.com/forum/index.php?topic=25658.0" style={{ color: 'inherit' }}>LunaLib</Link> settings to enable)</span></div>
+                <div className="md:max-w-[750px]"><span className="italic">Genetically modified food crops can be cultivated in caves and hollowed-out asteroids to feed a colony with no access to arable land.</span></div>
+                <div>Enabled by default: <span style={{ color: 'rgb(5, 115, 10)' }}>Yes</span></div>
                 <div>Build cost: <span style={{ color: 'rgb(255, 210, 0)' }}>250,000¢</span></div>
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>60</span> days</div>
                 <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>1,500¢</span> * (colony size - 2)</div>
@@ -25,7 +25,7 @@ export default function Hydroponics() {
                             <Link href="https://starsector.wiki.gg/wiki/Food" className="shrink-0">
                                 <img src="/images/commodities/food.png" alt="Food" className="h-10 w-10 shrink-0" />
                             </Link>
-                            <span>colony size</span>
+                            <span>colony size - 2</span>
                         </div>
                     </div>
                 </div>
@@ -49,6 +49,7 @@ export default function Hydroponics() {
                 <div className="flex flex-col gap-1">
                     <div>Effects:</div>
                     <ul className="list-disc list-inside pl-4">
+                        <li>A functional <Link href="/docs/genelab" style={{ color: 'rgb(5, 250, 250)' }}>Genelab</Link> on the same colony increases food production by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>, plus any further bonus from an alpha core and from improving the Genelab.</li>
                         <li>Food production is reduced if heavy machinery (or, on non-habitable worlds, organics) demand is unmet.</li>
                     </ul>
                 </div>

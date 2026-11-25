@@ -31,17 +31,7 @@ export default function StellarReflectorArray() {
                 <div>Build time: <span style={{ color: 'rgb(255, 210, 0)' }}>90</span> days</div>
                 <div>Monthly upkeep: <span style={{ color: 'rgb(255, 210, 0)' }}>2,000¢</span> * (colony size - 2)</div>
                 <div>Supply: <span className="italic opacity-60">(none)</span></div>
-                <div className="flex flex-col gap-1">
-                    <div>Demand:</div>
-                    <div className="flex flex-col gap-2 pl-4">
-                        <div className="flex items-center gap-2">
-                            <Link href="/docs/domain-archaeology" className="shrink-0">
-                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10 shrink-0" />
-                            </Link>
-                            <span>1 <span className="italic opacity-60">(only demanded when Domain-tech content and <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> are enabled)</span></span>
-                        </div>
-                    </div>
-                </div>
+                <div>Demand: <span className="italic opacity-60">(none)</span></div>
                 <div className="flex flex-col gap-1">
                     <div>Effects:</div>
                     <ul className="list-disc list-inside pl-4">
@@ -50,7 +40,6 @@ export default function StellarReflectorArray() {
                         <li>Suppresses <Link href="https://starsector.wiki.gg/wiki/Market_condition#Hazard" style={{ color: 'rgb(5, 250, 250)' }}>poor light</Link>.</li>
                         <li>Increases <Link href="https://starsector.wiki.gg/wiki/Food" style={{ color: 'rgb(5, 250, 250)' }}>food</Link> production from <Link href="https://starsector.wiki.gg/wiki/Farming" style={{ color: 'rgb(5, 250, 250)' }}>Farming</Link> and <Link href="https://starsector.wiki.gg/wiki/Aquaculture" style={{ color: 'rgb(5, 250, 250)' }}>Aquaculture</Link> by <span style={{ color: 'rgb(255, 210, 0)' }}>2</span>.</li>
                         <li>Spawns three reflector entities orbiting the colony.</li>
-                        <li>Upkeep is multiplied by <span style={{ color: 'rgb(255, 210, 0)' }}>5</span> when the <Link href="/docs/domain-archaeology" style={{ color: 'rgb(5, 250, 250)' }}>domain-era artifacts</Link> demand is unmet.</li>
                     </ul>
                 </div>
                 <div className="flex flex-col gap-1">

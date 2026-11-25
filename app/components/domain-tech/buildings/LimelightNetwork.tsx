@@ -24,7 +24,7 @@ export default function LimelightNetwork() {
                     <div className="flex flex-col gap-2 pl-4">
                         <div className="flex items-center gap-2">
                             <Link href="/docs/domain-archaeology" className="shrink-0">
-                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10 shrink-0" />
+                                <img src="/images/commodities/hyperlattice_alloys.png" alt="Hyperlattice alloys" className="h-10 w-10 shrink-0" />
                             </Link>
                             <span>colony size - 2 <span className="italic opacity-60">(only demanded when Domain-tech content and <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> are enabled)</span></span>
                         </div>
@@ -35,7 +35,7 @@ export default function LimelightNetwork() {
                     <ul className="list-disc list-inside pl-4">
                         <li>Generates a large amount of income.</li>
                         <li>On player-owned colonies, reduces production of every commodity at every other industry on the colony by <span style={{ color: 'rgb(255, 210, 0)' }}>1</span>.</li>
-                        <li>On player-owned colonies, if the demand for <Link href="/docs/domain-archaeology" style={{ color: 'rgb(5, 250, 250)' }}>Domain-era artifacts</Link> is unmet, the building generates no income and colony stability is reduced by the size of the shortage.</li>
+                        <li>On player-owned colonies, if the demand for <Link href="/docs/domain-archaeology" style={{ color: 'rgb(5, 250, 250)' }}>hyperlattice alloys</Link> is unmet, the building generates no income and colony stability is reduced by the size of the shortage.</li>
                     </ul>
                 </div>
                 <div className="flex flex-col gap-1">

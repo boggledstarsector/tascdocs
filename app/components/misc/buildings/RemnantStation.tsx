@@ -30,7 +30,7 @@ export default function RemnantStation() {
                         </div>
                         <div className="flex items-center gap-2">
                             <Link href="/docs/domain-archaeology" className="shrink-0">
-                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10 shrink-0" />
+                                <img src="/images/commodities/hyperlattice_alloys.png" alt="Hyperlattice alloys" className="h-10 w-10 shrink-0" />
                             </Link>
                             <span>4 <span className="italic opacity-60">(only demanded when Domain-tech content and <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> are enabled)</span></span>
                         </div>

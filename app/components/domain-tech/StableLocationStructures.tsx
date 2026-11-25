@@ -62,10 +62,10 @@ export default function StableLocationStructures() {
                             <span><span style={{ color: 'rgb(255, 210, 0)' }}>20</span> transplutonics</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="/docs/domain-archaeology" className="shrink-0">
-                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10 shrink-0" />
+                            <Link href="https://starsector.wiki.gg/wiki/Domain-grade_Parts" className="shrink-0">
+                                <img src="/images/commodities/domain_parts.png" alt="Domain-grade parts" className="h-10 w-10 shrink-0" />
                             </Link>
-                            <span><span style={{ color: 'rgb(255, 210, 0)' }}>20</span> <Link href="/docs/domain-archaeology" style={{ color: 'rgb(5, 250, 250)' }}>Domain-era artifacts</Link> <span className="italic opacity-60">(only required if <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> is enabled)</span></span>
+                            <span><span style={{ color: 'rgb(255, 210, 0)' }}>10</span> Domain-grade parts <span className="italic opacity-60">(only required if <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> is enabled)</span></span>
                         </div>
                     </div>
                 </div>
@@ -120,10 +120,10 @@ export default function StableLocationStructures() {
                             <span><span style={{ color: 'rgb(255, 210, 0)' }}>200</span> transplutonics</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <Link href="/docs/domain-archaeology" className="shrink-0">
-                                <img src="/images/commodities/domain_artifacts.png" alt="Domain-era artifacts" className="h-10 w-10 shrink-0" />
+                            <Link href="https://starsector.wiki.gg/wiki/Domain-grade_Parts" className="shrink-0">
+                                <img src="/images/commodities/domain_parts.png" alt="Domain-grade parts" className="h-10 w-10 shrink-0" />
                             </Link>
-                            <span><span style={{ color: 'rgb(255, 210, 0)' }}>200</span> Domain-era artifacts <span className="italic opacity-60">(only required if <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> is enabled)</span></span>
+                            <span><span style={{ color: 'rgb(255, 210, 0)' }}>200</span> Domain-grade parts <span className="italic opacity-60">(only required if <Link href="/docs/domain-archaeology" style={{ color: 'inherit' }}>Domain Archaeology</Link> is enabled)</span></span>
                         </div>
                     </div>
                 </div>
